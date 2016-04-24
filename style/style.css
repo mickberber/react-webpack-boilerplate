@@ -1,7 +1,17 @@
-.jumbo {
-  background-color: transparent;
+.center {
+  text-align: center;
 }
 
-.jumboCenter {
-  text-align: center;
+.wallImage {
+	height: 750px;
+	width: 100%;
+	background: #bbbbbb;
+	z-index: 1;
+}
+
+.wallBackground {
+	background: url(http://s3.favim.com/orig/42/black-and-white-chef-sessel-design-living-office-Favim.com-354444.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
 }
