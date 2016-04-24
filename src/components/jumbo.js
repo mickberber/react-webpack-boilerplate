@@ -4,9 +4,9 @@ import { Component } from 'react';
 class Jumbo extends Component {
   render() {
     return (
-      <div className='jumbo'>
-          <h1 className='jumboCenter'>michael berber</h1>
-          <p className='jumboCenter'>software engineer</p>
+      <div>
+          <h1 className='center'>michael berber</h1>
+          <p className='center'>software engineer</p>
       </div>
     );
   }
