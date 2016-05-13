@@ -4,7 +4,7 @@ var path = require('path');
 var port = process.env.PORT || 8080;
 
 app.use(express.static(__dirname + '/public'));
-app.use(express.static(__dirname + '/src/assets'));
+app.use('/src/assets', express.static(__dirname + '/src/assets'));
 
 app.get('/', function(req, res) {
   res.send(path.join(__dirname + '/public/index.html'));

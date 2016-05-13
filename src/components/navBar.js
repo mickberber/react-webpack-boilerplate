@@ -23,14 +23,14 @@ class NavBar extends Component {
             <MenuItem href='http://chutte.com'>Chutte</MenuItem>
           </NavDropdown>
         </Nav>
-          <Nav pullRight>
-            <NavItem eventKey={1} href="https://www.linkedin.com/in/michaelberber">
-            <img src='./src/assets/In-2C-28px-R.png'></img>
-            LinkedIn</NavItem>
-            <NavItem eventKey={2} href="https://www.github.com/mickberber">
-            <img src='./src/assets/GitHub-Mark-32px.png'></img>
-            Github</NavItem>
-          </Nav>
+        <Nav pullRight>
+          <NavItem eventKey={1} href="https://www.linkedin.com/in/michaelberber">
+          <img src='./src/assets/In-2C-28px-R.png'></img>
+          LinkedIn</NavItem>
+          <NavItem eventKey={2} href="https://www.github.com/mickberber">
+          <img src='./src/assets/GitHub-Mark-32px.png'></img>
+          Github</NavItem>
+        </Nav>
         </Navbar.Collapse>
       </Navbar>
     );
