@@ -21452,7 +21452,6 @@
 	        'div',
 	        null,
 	        _react2.default.createElement(_navBar2.default, null),
-	        _react2.default.createElement(_jumbo2.default, null),
 	        _react2.default.createElement(_wall2.default, null),
 	        _react2.default.createElement(_twitters2.default, null)
 	      );
@@ -21504,7 +21503,7 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        _reactBootstrap.Navbar,
-	        { className: 'container' },
+	        { inverse: true, className: 'container' },
 	        _react2.default.createElement(
 	          _reactBootstrap.Navbar.Header,
 	          null,
@@ -21514,7 +21513,7 @@
 	            _react2.default.createElement(
 	              'a',
 	              { href: '#' },
-	              _react2.default.createElement('img', { src: './src/assets/rsz_mb-logo.png' })
+	              _react2.default.createElement('img', { src: './src/assets/mblogoa.png' })
 	            )
 	          ),
 	          _react2.default.createElement(_reactBootstrap.Navbar.Toggle, null)
@@ -21562,7 +21561,7 @@
 	            _react2.default.createElement(
 	              _reactBootstrap.NavItem,
 	              { eventKey: 2, href: 'https://www.github.com/mickberber' },
-	              _react2.default.createElement('img', { src: './src/assets/GitHub-Mark-32px.png' }),
+	              _react2.default.createElement('img', { src: './src/assets/github-32.png' }),
 	              'Github'
 	            )
 	          )

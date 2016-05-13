@@ -10,10 +10,11 @@
 }
 
 .wallBackground {
-	background: url(http://s3.favim.com/orig/42/black-and-white-chef-sessel-design-living-office-Favim.com-354444.jpg);
+	background: url('./../src/assets/mblogo.png');
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center;
+  background-size: contain;
 }
 
 .iframeCenter {
