@@ -17,10 +17,18 @@ class NavBar extends Component {
         <Navbar.Collapse>
         <Nav>
           <NavDropdown eventKey={3} title="Projects" id="basic-nav-dropdown">
-            <MenuItem href='http://tinnrplusplus.herokuapp.com'>Tinnr++</MenuItem>
-            <MenuItem href='http://gilson.herokuapp.com'>Team Rubicon Mobilizer</MenuItem>
-            <MenuItem href='http://socialflix.herokuapp.com'>Socialflix</MenuItem>
-            <MenuItem href='http://chutte.com'>Chutte</MenuItem>
+            <MenuItem href='http://tinnrplusplus.herokuapp.com'>
+              Tinnr <i className="fa fa-plus-circle"></i>
+            </MenuItem>
+            <MenuItem href='http://gilson.herokuapp.com'>
+              Team Rubicon Mobilizer <i className="fa fa-area-chart"></i>
+            </MenuItem>
+            <MenuItem href='http://socialflix.herokuapp.com'>
+              Socialflix <i className="fa fa-film"></i>
+            </MenuItem>
+            <MenuItem href='http://chutte.com'>
+              Chutte <i className="fa fa-umbrella"></i>
+            </MenuItem>
           </NavDropdown>
         </Nav>
         <Nav pullRight>

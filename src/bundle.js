@@ -21530,22 +21530,26 @@
 	              _react2.default.createElement(
 	                _reactBootstrap.MenuItem,
 	                { href: 'http://tinnrplusplus.herokuapp.com' },
-	                'Tinnr++'
+	                'Tinnr ',
+	                _react2.default.createElement('i', { className: 'fa fa-plus-circle' })
 	              ),
 	              _react2.default.createElement(
 	                _reactBootstrap.MenuItem,
 	                { href: 'http://gilson.herokuapp.com' },
-	                'Team Rubicon Mobilizer'
+	                'Team Rubicon Mobilizer ',
+	                _react2.default.createElement('i', { className: 'fa fa-area-chart' })
 	              ),
 	              _react2.default.createElement(
 	                _reactBootstrap.MenuItem,
 	                { href: 'http://socialflix.herokuapp.com' },
-	                'Socialflix'
+	                'Socialflix ',
+	                _react2.default.createElement('i', { className: 'fa fa-film' })
 	              ),
 	              _react2.default.createElement(
 	                _reactBootstrap.MenuItem,
 	                { href: 'http://chutte.com' },
-	                'Chutte'
+	                'Chutte ',
+	                _react2.default.createElement('i', { className: 'fa fa-umbrella' })
 	              )
 	            )
 	          ),
