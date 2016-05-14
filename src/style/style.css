@@ -17,6 +17,14 @@
   background-size: contain;
 }
 
+.wallBackground2 {
+	background: url('./../src/assets/In-2C-28px-R.png');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+  background-size: contain;
+}
+
 .iframeCenter {
     width: 100px;
     height: 50px;

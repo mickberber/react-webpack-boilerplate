@@ -21561,7 +21561,11 @@
 	            _react2.default.createElement(
 	              _reactBootstrap.NavItem,
 	              { eventKey: 2, href: 'https://www.github.com/mickberber' },
-	              _react2.default.createElement('img', { src: './src/assets/github-32.png' }),
+	              _react2.default.createElement(
+	                'img',
+	                { src: './src/assets/github-32.png' },
+	                ' '
+	              ),
 	              'Github'
 	            )
 	          )

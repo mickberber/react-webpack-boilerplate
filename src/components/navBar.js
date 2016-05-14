@@ -28,7 +28,7 @@ class NavBar extends Component {
           <img src='./src/assets/In-2C-28px-R.png'></img>
           LinkedIn</NavItem>
           <NavItem eventKey={2} href="https://www.github.com/mickberber">
-          <img src='./src/assets/github-32.png'></img>
+          <img src='./src/assets/github-32.png'> </img>
           Github</NavItem>
         </Nav>
         </Navbar.Collapse>
