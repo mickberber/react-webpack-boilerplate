@@ -81,7 +81,7 @@
 	  _reactRedux.Provider,
 	  { store: createStoreWithMiddleware(_reducers2.default) },
 	  _react2.default.createElement(_app2.default, null)
-	), document.querySelector('.container'));
+	), document.querySelector('.attach'));
 
 /***/ },
 /* 2 */
@@ -21503,7 +21503,7 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        _reactBootstrap.Navbar,
-	        { inverse: true, className: 'container' },
+	        { inverse: true },
 	        _react2.default.createElement(
 	          _reactBootstrap.Navbar.Header,
 	          null,
@@ -53653,7 +53653,7 @@
 /* 660 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -53683,12 +53683,12 @@
 	  }
 
 	  _createClass(Twitters, [{
-	    key: "render",
+	    key: 'render',
 	    value: function render() {
 	      return _react2.default.createElement(
-	        "div",
-	        null,
-	        _react2.default.createElement("a", { href: "https://twitter.com/steedhelix", className: "twitter-timeline", "data-show-count": "false", "data-show-screen-name": "false" })
+	        'div',
+	        { className: 'centerTwit' },
+	        _react2.default.createElement('a', { href: 'https://twitter.com/steedhelix', className: 'twitter-timeline', 'data-show-count': 'false', 'data-show-screen-name': 'false' })
 	      );
 	    }
 	  }]);

@@ -5,7 +5,7 @@ import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
 class NavBar extends Component {
   render() {
     return (
-      <Navbar inverse className='container'>
+      <Navbar inverse>
         <Navbar.Header>
           <Navbar.Brand>
             <a href="#">
