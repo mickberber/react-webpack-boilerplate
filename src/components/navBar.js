@@ -18,19 +18,19 @@ class NavBar extends Component {
         <Nav>
           <NavDropdown eventKey={3} title="Projects" id="basic-nav-dropdown">
             <MenuItem href='http://tinnrplusplus.herokuapp.com'>
-              Tinnr <i className="fa fa-plus-circle"></i>
+              <i className="fa fa-plus-circle"></i> Tinnr
             </MenuItem>
             <MenuItem href='http://gilson.herokuapp.com'>
-              Team Rubicon Mobilizer <i className="fa fa-area-chart"></i>
+              <i className="fa fa-area-chart"></i> Team Rubicon Mobilizer
             </MenuItem>
             <MenuItem href='http://socialflix.herokuapp.com'>
-              Socialflix <i className="fa fa-film"></i>
+              <i className="fa fa-film"></i> Socialflix
             </MenuItem>
             <MenuItem href='http://chutte.com'>
-              Chutte <i className="fa fa-umbrella"></i>
+              <i className="fa fa-umbrella"></i> Chutte
             </MenuItem>
             <MenuItem href='http://github.com/mickberber/mcTesting'>
-              McTesting <i className='fa fa-flask'></i>
+              <i className='fa fa-flask'></i> McTesting
             </MenuItem>
           </NavDropdown>
         </Nav>

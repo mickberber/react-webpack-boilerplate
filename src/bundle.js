@@ -21530,32 +21530,32 @@
 	              _react2.default.createElement(
 	                _reactBootstrap.MenuItem,
 	                { href: 'http://tinnrplusplus.herokuapp.com' },
-	                'Tinnr ',
-	                _react2.default.createElement('i', { className: 'fa fa-plus-circle' })
+	                _react2.default.createElement('i', { className: 'fa fa-plus-circle' }),
+	                ' Tinnr'
 	              ),
 	              _react2.default.createElement(
 	                _reactBootstrap.MenuItem,
 	                { href: 'http://gilson.herokuapp.com' },
-	                'Team Rubicon Mobilizer ',
-	                _react2.default.createElement('i', { className: 'fa fa-area-chart' })
+	                _react2.default.createElement('i', { className: 'fa fa-area-chart' }),
+	                ' Team Rubicon Mobilizer'
 	              ),
 	              _react2.default.createElement(
 	                _reactBootstrap.MenuItem,
 	                { href: 'http://socialflix.herokuapp.com' },
-	                'Socialflix ',
-	                _react2.default.createElement('i', { className: 'fa fa-film' })
+	                _react2.default.createElement('i', { className: 'fa fa-film' }),
+	                ' Socialflix'
 	              ),
 	              _react2.default.createElement(
 	                _reactBootstrap.MenuItem,
 	                { href: 'http://chutte.com' },
-	                'Chutte ',
-	                _react2.default.createElement('i', { className: 'fa fa-umbrella' })
+	                _react2.default.createElement('i', { className: 'fa fa-umbrella' }),
+	                ' Chutte'
 	              ),
 	              _react2.default.createElement(
 	                _reactBootstrap.MenuItem,
 	                { href: 'http://github.com/mickberber/mcTesting' },
-	                'McTesting ',
-	                _react2.default.createElement('i', { className: 'fa fa-flask' })
+	                _react2.default.createElement('i', { className: 'fa fa-flask' }),
+	                ' McTesting'
 	              )
 	            )
 	          ),
