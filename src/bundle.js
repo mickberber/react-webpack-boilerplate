@@ -21550,6 +21550,12 @@
 	                { href: 'http://chutte.com' },
 	                'Chutte ',
 	                _react2.default.createElement('i', { className: 'fa fa-umbrella' })
+	              ),
+	              _react2.default.createElement(
+	                _reactBootstrap.MenuItem,
+	                { href: 'http://github.com/mickberber/mcTesting' },
+	                'McTesting ',
+	                _react2.default.createElement('i', { className: 'fa fa-flask' })
 	              )
 	            )
 	          ),

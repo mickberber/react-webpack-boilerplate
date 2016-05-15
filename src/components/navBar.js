@@ -29,6 +29,9 @@ class NavBar extends Component {
             <MenuItem href='http://chutte.com'>
               Chutte <i className="fa fa-umbrella"></i>
             </MenuItem>
+            <MenuItem href='http://github.com/mickberber/mcTesting'>
+              McTesting <i className='fa fa-flask'></i>
+            </MenuItem>
           </NavDropdown>
         </Nav>
         <Nav pullRight>
