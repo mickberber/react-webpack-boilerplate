@@ -21467,6 +21467,8 @@
 	        _react2.default.createElement(_wall2.default, { 'class': 'logoBackground', wall: 'logoStructureSmall' }),
 	        _react2.default.createElement('div', { className: 'buffer' }),
 	        _react2.default.createElement(_wall2.default, { 'class': 'mcTestingBackground', wall: 'mcTestingStructure' }),
+	        _react2.default.createElement(_wall2.default, { 'class': 'logoBackground', wall: 'logoStructureSmall' }),
+	        _react2.default.createElement('div', { className: 'buffer' }),
 	        _react2.default.createElement(_twitters2.default, null)
 	      );
 	    }

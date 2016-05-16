@@ -26,6 +26,8 @@ export default class App extends Component {
         <Wall class='logoBackground' wall='logoStructureSmall' />
         <div className='buffer'/>
         <Wall class='mcTestingBackground' wall='mcTestingStructure' />
+        <Wall class='logoBackground' wall='logoStructureSmall' />
+        <div className='buffer'/>
         <Twitters />
       </div>
     );
