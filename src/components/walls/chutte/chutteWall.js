@@ -8,7 +8,7 @@ class ChutteWall extends Component {
     this.props = props;
   }
   render() {
-    const classes = CN(this.props.wall, this.props.class);;
+    const classes = CN(this.props.wall, this.props.background);;
     return (
       <div className={classes}>
         <div className='container'>

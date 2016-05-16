@@ -6,6 +6,10 @@
   text-align: right;
 }
 
+.whiteText {
+  color: white;
+}
+
 /* Logo Wall Attributes */
 .logoStructure {
 	height: 620px;
@@ -105,7 +109,7 @@
 /* McTesting.js Wall Attributes */
 
 .mcTestingStructure {
-	height: 700px;
+	height: 800px;
 	width: 100%;
 	background: #bbbbbb;
 	z-index: 1;

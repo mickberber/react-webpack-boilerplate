@@ -7,7 +7,7 @@ class GilsonWall extends Component {
     this.props = props;
   }
   render() {
-    const classesWall = CN(this.props.wall, this.props.class);;
+    const classesWall = CN(this.props.wall, this.props.background);;
     return (
       <div className={classesWall}>
         <div className='container'>

@@ -10,12 +10,12 @@ class Walls extends Component {
   render() {
     return(
       <div>
-        <LogoWall class='logoBackground' wall='logoStructure' />
-        <GilsonWall class='gilsonBackground' wall='gilsonStructure' />
-        <ChutteWall class='chutteBackground' wall='chutteStructure' />
-        <SocialWall class='socialBackground' wall='socialStructure' />
-        <TinnrWall class='tinnrBackground' wall='tinnrStructure' />
-        <McTestingWall class='mcTestingBackground' wall='mcTestingStructure' />
+        <LogoWall background='logoBackground' wall='logoStructure' />
+        <GilsonWall background='gilsonBackground' wall='gilsonStructure' />
+        <McTestingWall background='mcTestingBackground' wall='mcTestingStructure' />
+        <TinnrWall background='tinnrBackground' wall='tinnrStructure' />
+        <ChutteWall background='chutteBackground' wall='chutteStructure' />
+        <SocialWall background='socialBackground' wall='socialStructure' />
       </div>
     )
   }

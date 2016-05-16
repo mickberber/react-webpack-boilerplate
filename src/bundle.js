@@ -40748,12 +40748,12 @@
 	      return _react2.default.createElement(
 	        'div',
 	        null,
-	        _react2.default.createElement(_wall2.default, { 'class': 'logoBackground', wall: 'logoStructure' }),
-	        _react2.default.createElement(_gilsonWall2.default, { 'class': 'gilsonBackground', wall: 'gilsonStructure' }),
-	        _react2.default.createElement(_chutteWall2.default, { 'class': 'chutteBackground', wall: 'chutteStructure' }),
-	        _react2.default.createElement(_socialWall2.default, { 'class': 'socialBackground', wall: 'socialStructure' }),
-	        _react2.default.createElement(_tinnrWall2.default, { 'class': 'tinnrBackground', wall: 'tinnrStructure' }),
-	        _react2.default.createElement(_mcTestingWall2.default, { 'class': 'mcTestingBackground', wall: 'mcTestingStructure' })
+	        _react2.default.createElement(_wall2.default, { background: 'logoBackground', wall: 'logoStructure' }),
+	        _react2.default.createElement(_gilsonWall2.default, { background: 'gilsonBackground', wall: 'gilsonStructure' }),
+	        _react2.default.createElement(_mcTestingWall2.default, { background: 'mcTestingBackground', wall: 'mcTestingStructure' }),
+	        _react2.default.createElement(_tinnrWall2.default, { background: 'tinnrBackground', wall: 'tinnrStructure' }),
+	        _react2.default.createElement(_chutteWall2.default, { background: 'chutteBackground', wall: 'chutteStructure' }),
+	        _react2.default.createElement(_socialWall2.default, { background: 'socialBackground', wall: 'socialStructure' })
 	      );
 	    }
 	  }]);
@@ -40806,7 +40806,7 @@
 	  _createClass(LogoWall, [{
 	    key: 'render',
 	    value: function render() {
-	      var classes = (0, _classnames2.default)(this.props.wall, this.props.class, 'center');
+	      var classes = (0, _classnames2.default)(this.props.wall, this.props.background, 'center');
 	      return _react2.default.createElement(
 	        'div',
 	        { className: classes },
@@ -40817,11 +40817,7 @@
 	            'div',
 	            { className: 'row' },
 	            _react2.default.createElement('div', { className: 'col-md-2' }),
-	            _react2.default.createElement(
-	              'div',
-	              { className: 'col-md-8' },
-	              ' aboutme: '
-	            ),
+	            _react2.default.createElement('div', { className: 'col-md-8' }),
 	            _react2.default.createElement('div', { className: 'col-md-2' })
 	          )
 	        )
@@ -40877,7 +40873,7 @@
 	  _createClass(GilsonWall, [{
 	    key: 'render',
 	    value: function render() {
-	      var classesWall = (0, _classnames2.default)(this.props.wall, this.props.class);;
+	      var classesWall = (0, _classnames2.default)(this.props.wall, this.props.background);;
 	      return _react2.default.createElement(
 	        'div',
 	        { className: classesWall },
@@ -40958,7 +40954,7 @@
 	  _createClass(ChutteWall, [{
 	    key: 'render',
 	    value: function render() {
-	      var classes = (0, _classnames2.default)(this.props.wall, this.props.class);;
+	      var classes = (0, _classnames2.default)(this.props.wall, this.props.background);;
 	      return _react2.default.createElement(
 	        'div',
 	        { className: classes },
@@ -53895,7 +53891,7 @@
 	  _createClass(SocialWall, [{
 	    key: 'render',
 	    value: function render() {
-	      var classes = (0, _classnames2.default)(this.props.wall, this.props.class);;
+	      var classes = (0, _classnames2.default)(this.props.wall, this.props.background);;
 	      return _react2.default.createElement('div', { className: classes });
 	    }
 	  }]);
@@ -53948,8 +53944,55 @@
 	  _createClass(TinnrWall, [{
 	    key: 'render',
 	    value: function render() {
-	      var classes = (0, _classnames2.default)(this.props.wall, this.props.class);;
-	      return _react2.default.createElement('div', { className: classes });
+	      var classes = (0, _classnames2.default)(this.props.wall, this.props.background);;
+	      return _react2.default.createElement(
+	        'div',
+	        { className: classes },
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'container' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'row' },
+	            _react2.default.createElement('div', { className: 'col-md-2' }),
+	            _react2.default.createElement('div', { className: 'col-md-2' }),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'col-md-8' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'right whiteText' },
+	                _react2.default.createElement(
+	                  'h3',
+	                  null,
+	                  _react2.default.createElement(
+	                    'a',
+	                    { href: 'https://www.github.com/HomeBrewCrewX/tinnr' },
+	                    'Tinnr++ ',
+	                    _react2.default.createElement('img', { src: './src/assets/GitHub-Mark-32px.png' })
+	                  )
+	                ),
+	                _react2.default.createElement(
+	                  'h3',
+	                  null,
+	                  'A web application to help pick recipes'
+	                ),
+	                _react2.default.createElement(
+	                  'h4',
+	                  null,
+	                  'With mobile swiping capability'
+	                ),
+	                _react2.default.createElement(
+	                  'h4',
+	                  null,
+	                  'Via ',
+	                  _react2.default.createElement('img', { style: { height: '50px', width: '100px' }, src: './src/assets/hammer.png' })
+	                )
+	              )
+	            )
+	          )
+	        )
+	      );
 	    }
 	  }]);
 
@@ -54001,7 +54044,7 @@
 	  _createClass(McTestingWall, [{
 	    key: 'render',
 	    value: function render() {
-	      var classes = (0, _classnames2.default)(this.props.wall, this.props.class);;
+	      var classes = (0, _classnames2.default)(this.props.wall, this.props.background);;
 	      return _react2.default.createElement(
 	        'div',
 	        { className: classes },
@@ -54025,7 +54068,7 @@
 	                  _react2.default.createElement(
 	                    'a',
 	                    { href: 'https://www.github.com/mickberber/mcTesting' },
-	                    'McTesting.js',
+	                    'McTesting.js ',
 	                    _react2.default.createElement('img', { src: './src/assets/GitHub-Mark-32px.png' })
 	                  )
 	                ),

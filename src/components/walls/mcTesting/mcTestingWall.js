@@ -7,7 +7,7 @@ class McTestingWall extends Component {
     this.props = props;
   }
   render() {
-    const classes = CN(this.props.wall, this.props.class);;
+    const classes = CN(this.props.wall, this.props.background);;
     return (
       <div className={classes}>
         <div className='container'>
@@ -18,8 +18,7 @@ class McTestingWall extends Component {
               <div className='right'>
                 <h3>
                   <a href='https://www.github.com/mickberber/mcTesting'>
-                    McTesting.js
-                    <img src='./src/assets/GitHub-Mark-32px.png'></img>
+                    McTesting.js <img src='./src/assets/GitHub-Mark-32px.png'></img>
                   </a>
                 </h3>
                 <h3>npm install mc-testing</h3>
