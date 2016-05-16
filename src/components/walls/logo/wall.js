@@ -2,7 +2,7 @@ import React from 'react';
 import { Component } from 'react';
 import CN from 'classnames';
 
-class Wall extends Component {
+class LogoWall extends Component {
   constructor(props) {
     super(props);
     this.props = props;
@@ -10,10 +10,9 @@ class Wall extends Component {
   render() {
     const classes = CN(this.props.wall, this.props.class);
     return (
-      <div className={classes}>
-      </div>
+      <div className={classes} />
     );
   }
 }
 
-export default Wall;
+export default LogoWall;
