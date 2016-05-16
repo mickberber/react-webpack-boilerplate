@@ -36,6 +36,10 @@
   background-size: contain;
 }
 
+.gilsonText {
+  color: white;
+  font-size: 30px;
+}
 /*.gilsonStageIMG {
   background: url('./../src/assets/wallAssets/gilsonStage.png');
 	z-index: 1;
@@ -64,6 +68,10 @@
   background-size: contain;
 }
 
+.chutteText {
+  color: black;
+  font-size: 30px;
+}
 /* Social Flix Wall Attributes */
 
 .socialStructure {

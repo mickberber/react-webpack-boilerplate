@@ -21527,15 +21527,15 @@
 	              { eventKey: 3, title: 'Projects', id: 'basic-nav-dropdown' },
 	              _react2.default.createElement(
 	                _reactBootstrap.MenuItem,
-	                { href: 'http://tinnrplusplus.herokuapp.com' },
-	                _react2.default.createElement('i', { className: 'fa fa-plus-circle' }),
-	                ' Tinnr'
-	              ),
-	              _react2.default.createElement(
-	                _reactBootstrap.MenuItem,
 	                { href: 'http://gilson.herokuapp.com' },
 	                _react2.default.createElement('i', { className: 'fa fa-area-chart' }),
 	                ' Team Rubicon Mobilizer'
+	              ),
+	              _react2.default.createElement(
+	                _reactBootstrap.MenuItem,
+	                { href: 'http://chutte.com' },
+	                _react2.default.createElement('i', { className: 'fa fa-umbrella' }),
+	                ' Chutte'
 	              ),
 	              _react2.default.createElement(
 	                _reactBootstrap.MenuItem,
@@ -21545,9 +21545,9 @@
 	              ),
 	              _react2.default.createElement(
 	                _reactBootstrap.MenuItem,
-	                { href: 'http://chutte.com' },
-	                _react2.default.createElement('i', { className: 'fa fa-umbrella' }),
-	                ' Chutte'
+	                { href: 'http://tinnrplusplus.herokuapp.com' },
+	                _react2.default.createElement('i', { className: 'fa fa-plus-circle' }),
+	                ' Tinnr'
 	              ),
 	              _react2.default.createElement(
 	                _reactBootstrap.MenuItem,
@@ -40859,11 +40859,26 @@
 	  _createClass(GilsonWall, [{
 	    key: 'render',
 	    value: function render() {
-	      var classes = (0, _classnames2.default)(this.props.wall, this.props.class);;
+	      var classesWall = (0, _classnames2.default)(this.props.wall, this.props.class);;
 	      return _react2.default.createElement(
 	        'div',
-	        { className: classes },
-	        _react2.default.createElement('div', { className: 'gilsonStageIMG' })
+	        { className: classesWall },
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'container' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'row' },
+	            _react2.default.createElement('div', { className: 'col-md-2' }),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'col-md-8 center gilsonText' },
+	              _react2.default.createElement('i', { className: 'fa fa-area-chart fa-5x' }),
+	              'Team Rubicon Mobilizer'
+	            ),
+	            _react2.default.createElement('div', { className: 'col-md-2' })
+	          )
+	        )
 	      );
 	    }
 	  }]);
@@ -40917,7 +40932,21 @@
 	    key: 'render',
 	    value: function render() {
 	      var classes = (0, _classnames2.default)(this.props.wall, this.props.class);;
-	      return _react2.default.createElement('div', { className: classes });
+	      return _react2.default.createElement(
+	        'div',
+	        { className: classes },
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'container' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'row' },
+	            _react2.default.createElement('div', { className: 'col-md-2' }),
+	            _react2.default.createElement('div', { className: 'col-md-8 center chutteText' }),
+	            _react2.default.createElement('div', { className: 'col-md-2' })
+	          )
+	        )
+	      );
 	    }
 	  }]);
 

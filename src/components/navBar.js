@@ -17,17 +17,17 @@ class NavBar extends Component {
         <Navbar.Collapse>
         <Nav>
           <NavDropdown eventKey={3} title="Projects" id="basic-nav-dropdown">
-            <MenuItem href='http://tinnrplusplus.herokuapp.com'>
-              <i className="fa fa-plus-circle"></i> Tinnr
-            </MenuItem>
             <MenuItem href='http://gilson.herokuapp.com'>
-              <i className="fa fa-area-chart"></i> Team Rubicon Mobilizer
-            </MenuItem>
-            <MenuItem href='http://socialflix.herokuapp.com'>
-              <i className="fa fa-film"></i> Socialflix
+            <i className="fa fa-area-chart"></i> Team Rubicon Mobilizer
             </MenuItem>
             <MenuItem href='http://chutte.com'>
-              <i className="fa fa-umbrella"></i> Chutte
+            <i className="fa fa-umbrella"></i> Chutte
+            </MenuItem>
+            <MenuItem href='http://socialflix.herokuapp.com'>
+            <i className="fa fa-film"></i> Socialflix
+            </MenuItem>
+            <MenuItem href='http://tinnrplusplus.herokuapp.com'>
+              <i className="fa fa-plus-circle"></i> Tinnr
             </MenuItem>
             <MenuItem href='http://github.com/mickberber/mcTesting'>
               <i className='fa fa-flask'></i> McTesting

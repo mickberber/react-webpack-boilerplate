@@ -7,10 +7,16 @@ class GilsonWall extends Component {
     this.props = props;
   }
   render() {
-    const classes = CN(this.props.wall, this.props.class);;
+    const classesWall = CN(this.props.wall, this.props.class);;
     return (
-      <div className={classes}>
-        <div className='gilsonStageIMG'></div>
+      <div className={classesWall}>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-md-2' />
+            <div className='col-md-8 center gilsonText'><i className="fa fa-area-chart fa-5x"></i>Team Rubicon Mobilizer</div>
+            <div className='col-md-2' />
+          </div>
+        </div>
       </div>
     )
   }

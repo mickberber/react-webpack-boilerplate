@@ -9,7 +9,15 @@ class ChutteWall extends Component {
   render() {
     const classes = CN(this.props.wall, this.props.class);;
     return (
-      <div className={classes} />
+      <div className={classes}>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-md-2' />
+            <div className='col-md-8 center chutteText'></div>
+            <div className='col-md-2' />
+          </div>
+        </div>
+      </div>
     )
   }
 }
