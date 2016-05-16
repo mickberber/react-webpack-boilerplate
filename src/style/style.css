@@ -9,6 +9,7 @@
 	z-index: 1;
 }
 
+/* Logo Wall Attributes */
 .logoStructure {
 	height: 620px;
 	width: 100%;
@@ -31,6 +32,8 @@
   background-size: contain;
 }
 
+/* Gilson Wall Attributes */
+
 .gilsonStructure {
 	height: 800px;
 	width: 100%;
@@ -46,6 +49,19 @@
   background-size: contain;
 }
 
+.gilsonStageIMG {
+  background: url('./../src/assets/wallAssets/gilsonStage.png');
+	z-index: 1;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+}
+
+/* Chutte Wall Attributes */
+
 .chutteStructure {
 	height: 800px;
 	width: 100%;
@@ -54,12 +70,14 @@
 }
 
 .chutteBackground {
-	background-color: green;
+	background: url('./../src/assets/wallAssets/chuttelogo.png');
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-position: left;
+	background-position: center;
   background-size: contain;
 }
+
+/* Social Flix Wall Attributes */
 
 .socialStructure {
 	height: 800px;
@@ -69,12 +87,14 @@
 }
 
 .socialBackground {
-	background-color: red;
+  background: url('./../src/assets/wallAssets/socialflixss.png');
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-position: left;
+	background-position: center;
   background-size: contain;
 }
+
+/* Tinnr++ Wall Attributes */
 
 .tinnrStructure {
 	height: 800px;
@@ -84,12 +104,14 @@
 }
 
 .tinnrBackground {
-	background-color: blue;
+	background: url('./../src/assets/wallAssets/tinnrss.png');
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-position: left;
+	background-position: center;
   background-size: contain;
 }
+
+/* McTesting.js Wall Attributes */
 
 .mcTestingStructure {
 	height: 800px;

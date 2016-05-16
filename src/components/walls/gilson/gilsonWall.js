@@ -9,7 +9,9 @@ class GilsonWall extends Component {
   render() {
     const classes = CN(this.props.wall, this.props.class);;
     return (
-      <div className={classes} />
+      <div className={classes}>
+        <div className='gilsonStageIMG'></div>
+      </div>
     )
   }
 }

@@ -40865,7 +40865,11 @@
 	    key: 'render',
 	    value: function render() {
 	      var classes = (0, _classnames2.default)(this.props.wall, this.props.class);;
-	      return _react2.default.createElement('div', { className: classes });
+	      return _react2.default.createElement(
+	        'div',
+	        { className: classes },
+	        _react2.default.createElement('div', { className: 'gilsonStageIMG' })
+	      );
 	    }
 	  }]);
 
