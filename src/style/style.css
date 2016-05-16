@@ -2,14 +2,28 @@
   text-align: center;
 }
 
-.wallImage {
-	height: 500px;
+.buffer {
+	height: 20px;
+	width: 100%;
+	background-color: black;
+	z-index: 1;
+}
+
+.logoStructure {
+	height: 620px;
 	width: 100%;
 	background: #bbbbbb;
 	z-index: 1;
 }
 
-.wallBackground {
+.logoStructureSmall {
+	height: 310px;
+	width: 100%;
+	background: #bbbbbb;
+	z-index: 1;
+}
+
+.logoBackground {
 	background: url('./../src/assets/mblogo.png');
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -17,13 +31,81 @@
   background-size: contain;
 }
 
-.wallBackground2 {
-	background: url('./../src/assets/In-2C-28px-R.png');
+.gilsonStructure {
+	height: 800px;
+	width: 100%;
+	background: #bbbbbb;
+	z-index: 1;
+}
+
+.gilsonBackground {
+	background-color: brown;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: left;
+  background-size: contain;
+}
+
+.chutteStructure {
+	height: 800px;
+	width: 100%;
+	background: #bbbbbb;
+	z-index: 1;
+}
+
+.chutteBackground {
+	background-color: green;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: left;
+  background-size: contain;
+}
+
+.socialStructure {
+	height: 800px;
+	width: 100%;
+	background: #bbbbbb;
+	z-index: 1;
+}
+
+.socialBackground {
+	background-color: red;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: left;
+  background-size: contain;
+}
+
+.tinnrStructure {
+	height: 800px;
+	width: 100%;
+	background: #bbbbbb;
+	z-index: 1;
+}
+
+.tinnrBackground {
+	background-color: blue;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: left;
+  background-size: contain;
+}
+
+.mcTestingStructure {
+	height: 800px;
+	width: 100%;
+	background: #bbbbbb;
+	z-index: 1;
+}
+
+.mcTestingBackground {
+	background: url('./../src/assets/mctestingjs.png');
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center;
   background-size: contain;
 }
+/*not currently used
 
 .iframeCenter {
     width: 100px;
@@ -31,7 +113,7 @@
     margin: 0 auto;
     background-color: #777;
 }
-
+*/
 .centerTwit {
   width: 80%;
   margin: auto;

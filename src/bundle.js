@@ -21452,7 +21452,21 @@
 	        'div',
 	        null,
 	        _react2.default.createElement(_navBar2.default, null),
-	        _react2.default.createElement(_wall2.default, null),
+	        _react2.default.createElement(_wall2.default, { 'class': 'logoBackground', wall: 'logoStructure' }),
+	        _react2.default.createElement('div', { className: 'buffer' }),
+	        _react2.default.createElement(_wall2.default, { 'class': 'gilsonBackground', wall: 'gilsonStructure' }),
+	        _react2.default.createElement(_wall2.default, { 'class': 'logoBackground', wall: 'logoStructureSmall' }),
+	        _react2.default.createElement('div', { className: 'buffer' }),
+	        _react2.default.createElement(_wall2.default, { 'class': 'chutteBackground', wall: 'chutteStructure' }),
+	        _react2.default.createElement(_wall2.default, { 'class': 'logoBackground', wall: 'logoStructureSmall' }),
+	        _react2.default.createElement('div', { className: 'buffer' }),
+	        _react2.default.createElement(_wall2.default, { 'class': 'socialBackground', wall: 'socialStructure' }),
+	        _react2.default.createElement(_wall2.default, { 'class': 'logoBackground', wall: 'logoStructureSmall' }),
+	        _react2.default.createElement('div', { className: 'buffer' }),
+	        _react2.default.createElement(_wall2.default, { 'class': 'tinnrBackground', wall: 'tinnrStructure' }),
+	        _react2.default.createElement(_wall2.default, { 'class': 'logoBackground', wall: 'logoStructureSmall' }),
+	        _react2.default.createElement('div', { className: 'buffer' }),
+	        _react2.default.createElement(_wall2.default, { 'class': 'mcTestingBackground', wall: 'mcTestingStructure' }),
 	        _react2.default.createElement(_twitters2.default, null)
 	      );
 	    }
@@ -40778,16 +40792,19 @@
 	var Wall = function (_Component) {
 	  _inherits(Wall, _Component);
 
-	  function Wall() {
+	  function Wall(props) {
 	    _classCallCheck(this, Wall);
 
-	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Wall).apply(this, arguments));
+	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(Wall).call(this, props));
+
+	    _this.props = props;
+	    return _this;
 	  }
 
 	  _createClass(Wall, [{
 	    key: 'render',
 	    value: function render() {
-	      var classes = (0, _classnames2.default)('wallImage', 'wallBackground');
+	      var classes = (0, _classnames2.default)(this.props.wall, this.props.class);
 	      return _react2.default.createElement('div', { className: classes });
 	    }
 	  }]);
