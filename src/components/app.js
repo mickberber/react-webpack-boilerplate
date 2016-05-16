@@ -1,10 +1,11 @@
 import React from 'react';
 import { Component } from 'react';
 import NavBar from './navBar';
-import Jumbo from './jumbo';
-import Wall from './wall';
-import VideoPlayer from './videoPlayer';
+import Wall from './logo/wall';
 import Twitters from './twitters';
+//not currently used
+//import VideoPlayer from './videoPlayer';
+//import Jumbo from './jumbo';
 
 export default class App extends Component {
   render() {
