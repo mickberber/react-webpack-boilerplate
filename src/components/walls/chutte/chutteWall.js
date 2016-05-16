@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import VideoPlayer from './../../VideoPlayer';
 import CN from 'classnames';
 
 class ChutteWall extends Component {
@@ -13,7 +14,9 @@ class ChutteWall extends Component {
         <div className='container'>
           <div className='row'>
             <div className='col-md-2' />
-            <div className='col-md-8 center chutteText'></div>
+            <div className='col-md-8'>
+              <VideoPlayer />
+            </div>
             <div className='col-md-2' />
           </div>
         </div>

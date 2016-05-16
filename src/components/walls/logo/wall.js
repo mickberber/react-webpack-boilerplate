@@ -8,9 +8,17 @@ class LogoWall extends Component {
     this.props = props;
   }
   render() {
-    const classes = CN(this.props.wall, this.props.class);
+    const classes = CN(this.props.wall, this.props.class, 'center');
     return (
-      <div className={classes} />
+      <div className={classes}>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-md-2' />
+            <div className='col-md-8'> aboutme: </div>
+            <div className='col-md-2' />
+          </div>
+        </div>
+      </div>
     );
   }
 }

@@ -13,10 +13,10 @@ class VideoPlayer extends Component {
         autoplay: 1
       }
     };
-    const classes = CN('iframeCenter');
+    const classes = CN('center-block');
     return(
-      <div className={classes}>
-        <YouTube videoId={videoSource} opts={opts}
+      <div>
+        <YouTube className={classes} videoId={videoSource} opts={opts}
         onReady={this._onReady} />
       </div>
     );
