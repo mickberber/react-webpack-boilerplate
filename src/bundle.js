@@ -54002,7 +54002,58 @@
 	    key: 'render',
 	    value: function render() {
 	      var classes = (0, _classnames2.default)(this.props.wall, this.props.class);;
-	      return _react2.default.createElement('div', { className: classes });
+	      return _react2.default.createElement(
+	        'div',
+	        { className: classes },
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'container' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'row' },
+	            _react2.default.createElement('div', { className: 'col-md-2' }),
+	            _react2.default.createElement('div', { className: 'col-md-2' }),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'col-md-8' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'right' },
+	                _react2.default.createElement(
+	                  'h3',
+	                  null,
+	                  _react2.default.createElement(
+	                    'a',
+	                    { href: 'https://www.github.com/mickberber/mcTesting' },
+	                    'McTesting.js',
+	                    _react2.default.createElement('img', { src: './src/assets/GitHub-Mark-32px.png' })
+	                  )
+	                ),
+	                _react2.default.createElement(
+	                  'h3',
+	                  null,
+	                  'npm install mc-testing'
+	                ),
+	                _react2.default.createElement(
+	                  'h4',
+	                  null,
+	                  'Simple test suite'
+	                ),
+	                _react2.default.createElement(
+	                  'h4',
+	                  null,
+	                  'I wanted to make my own,'
+	                ),
+	                _react2.default.createElement(
+	                  'h4',
+	                  null,
+	                  'to get a better handle on testing.'
+	                )
+	              )
+	            )
+	          )
+	        )
+	      );
 	    }
 	  }]);
 

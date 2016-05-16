@@ -67,6 +67,7 @@
   color: black;
   font-size: 30px;
 }
+
 /* Social Flix Wall Attributes */
 
 .socialStructure {
@@ -104,14 +105,14 @@
 /* McTesting.js Wall Attributes */
 
 .mcTestingStructure {
-	height: 800px;
+	height: 700px;
 	width: 100%;
 	background: #bbbbbb;
 	z-index: 1;
 }
 
 .mcTestingBackground {
-	background: url('./../src/assets/mctestingjs.png');
+	background: url('./../src/assets/npmmcTesting.png');
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center;
