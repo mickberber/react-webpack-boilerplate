@@ -2,23 +2,10 @@
   text-align: center;
 }
 
-.buffer {
-	height: 20px;
-	width: 100%;
-	background-color: black;
-	z-index: 1;
-}
 
 /* Logo Wall Attributes */
 .logoStructure {
 	height: 620px;
-	width: 100%;
-	background: #bbbbbb;
-	z-index: 1;
-}
-
-.logoStructureSmall {
-	height: 310px;
 	width: 100%;
 	background: #bbbbbb;
 	z-index: 1;

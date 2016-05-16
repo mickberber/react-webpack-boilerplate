@@ -40750,15 +40750,10 @@
 	        null,
 	        _react2.default.createElement(_wall2.default, { 'class': 'logoBackground', wall: 'logoStructure' }),
 	        _react2.default.createElement(_gilsonWall2.default, { 'class': 'gilsonBackground', wall: 'gilsonStructure' }),
-	        _react2.default.createElement(_wall2.default, { 'class': 'logoBackground', wall: 'logoStructureSmall' }),
 	        _react2.default.createElement(_chutteWall2.default, { 'class': 'chutteBackground', wall: 'chutteStructure' }),
-	        _react2.default.createElement(_wall2.default, { 'class': 'logoBackground', wall: 'logoStructureSmall' }),
 	        _react2.default.createElement(_socialWall2.default, { 'class': 'socialBackground', wall: 'socialStructure' }),
-	        _react2.default.createElement(_wall2.default, { 'class': 'logoBackground', wall: 'logoStructureSmall' }),
 	        _react2.default.createElement(_tinnrWall2.default, { 'class': 'tinnrBackground', wall: 'tinnrStructure' }),
-	        _react2.default.createElement(_wall2.default, { 'class': 'logoBackground', wall: 'logoStructureSmall' }),
-	        _react2.default.createElement(_mcTestingWall2.default, { 'class': 'mcTestingBackground', wall: 'mcTestingStructure' }),
-	        _react2.default.createElement(_wall2.default, { 'class': 'logoBackground', wall: 'logoStructureSmall' })
+	        _react2.default.createElement(_mcTestingWall2.default, { 'class': 'mcTestingBackground', wall: 'mcTestingStructure' })
 	      );
 	    }
 	  }]);

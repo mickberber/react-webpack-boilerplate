@@ -12,15 +12,10 @@ class Walls extends Component {
       <div>
         <LogoWall class='logoBackground' wall='logoStructure' />
         <GilsonWall class='gilsonBackground' wall='gilsonStructure' />
-        <LogoWall class='logoBackground' wall='logoStructureSmall' />
         <ChutteWall class='chutteBackground' wall='chutteStructure' />
-        <LogoWall class='logoBackground' wall='logoStructureSmall' />
         <SocialWall class='socialBackground' wall='socialStructure' />
-        <LogoWall class='logoBackground' wall='logoStructureSmall' />
         <TinnrWall class='tinnrBackground' wall='tinnrStructure' />
-        <LogoWall class='logoBackground' wall='logoStructureSmall' />
         <McTestingWall class='mcTestingBackground' wall='mcTestingStructure' />
-        <LogoWall class='logoBackground' wall='logoStructureSmall' />
       </div>
     )
   }
