@@ -16,6 +16,10 @@ class ChutteWall extends Component {
             <div className='col-md-2' />
             <div className='col-md-8'>
               <VideoPlayer />
+              <div className='center'>
+              <h3>Chutte.com</h3>
+              <h3>A reverse auction style marketplace.</h3>
+              </div>
             </div>
             <div className='col-md-2' />
           </div>

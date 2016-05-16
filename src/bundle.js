@@ -40972,7 +40972,21 @@
 	            _react2.default.createElement(
 	              'div',
 	              { className: 'col-md-8' },
-	              _react2.default.createElement(_VideoPlayer2.default, null)
+	              _react2.default.createElement(_VideoPlayer2.default, null),
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'center' },
+	                _react2.default.createElement(
+	                  'h3',
+	                  null,
+	                  'Chutte.com'
+	                ),
+	                _react2.default.createElement(
+	                  'h3',
+	                  null,
+	                  'A reverse auction style marketplace.'
+	                )
+	              )
 	            ),
 	            _react2.default.createElement('div', { className: 'col-md-2' })
 	          )
