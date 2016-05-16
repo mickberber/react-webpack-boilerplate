@@ -42,14 +42,14 @@
 }
 
 .gilsonBackground {
-	background-color: brown;
+  background: url('./../src/assets/wallAssets/gilsonStage.png');
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: left;
   background-size: contain;
 }
 
-.gilsonStageIMG {
+/*.gilsonStageIMG {
   background: url('./../src/assets/wallAssets/gilsonStage.png');
 	z-index: 1;
   background-attachment: fixed;
@@ -58,7 +58,7 @@
   background-size: contain;
   height: 100%;
   width: 100%;
-}
+}*/
 
 /* Chutte Wall Attributes */
 
