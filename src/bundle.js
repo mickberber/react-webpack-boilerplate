@@ -21563,19 +21563,16 @@
 	            _react2.default.createElement(
 	              _reactBootstrap.NavItem,
 	              { eventKey: 1, href: 'https://www.linkedin.com/in/michaelberber' },
-	              _react2.default.createElement('img', { src: './src/assets/In-2C-28px-R.png' }),
-	              'LinkedIn'
+	              _react2.default.createElement('i', { className: 'fa fa-linkedin-square fa-3x', style: { color: 'white' }, 'aria-hidden': 'true' }),
+	              '  LinkedIn'
 	            ),
 	            _react2.default.createElement(
 	              _reactBootstrap.NavItem,
 	              { eventKey: 2, href: 'https://www.github.com/mickberber' },
-	              _react2.default.createElement(
-	                'img',
-	                { src: './src/assets/github-32.png' },
-	                ' '
-	              ),
-	              'Github'
-	            )
+	              _react2.default.createElement('i', { className: 'fa fa-github-square fa-3x', style: { color: 'white' }, 'aria-hidden': 'true' }),
+	              '  Github'
+	            ),
+	            _react2.default.createElement(_reactBootstrap.NavItem, null)
 	          )
 	        )
 	      );
