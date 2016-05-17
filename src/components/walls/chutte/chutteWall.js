@@ -19,6 +19,11 @@ class ChutteWall extends Component {
               <div className='center'>
               <h3>Chutte.com</h3>
               <h3>A reverse auction style marketplace.</h3>
+              <h3>MiddleOutHomeBrewCrew  </h3>
+                <a href='https://github.com/mickberber'><h5>Myself  <img src='./src/assets/GitHub-Mark-32px.png'></img></h5></a>
+                <a href='https://github.com/seanagibson'><h5>Sean Gibson  <img src='./src/assets/GitHub-Mark-32px.png'></img></h5></a>
+                <a href='https://github.com/peterkaiserui'><h5>Peter Kaiser  <img src='./src/assets/GitHub-Mark-32px.png'></img></h5></a>
+                <a href='https://github.com/beresford211'><h5>Tim Steele  <img src='./src/assets/GitHub-Mark-32px.png'></img></h5></a>
               </div>
             </div>
             <div className='col-md-2' />
