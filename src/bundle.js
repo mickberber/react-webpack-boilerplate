@@ -21575,11 +21575,8 @@
 	            _react2.default.createElement(
 	              _reactBootstrap.NavItem,
 	              { eventKey: 3, href: 'https://docs.google.com/document/d/1Upptm3WFDf4_vZV9MR7rHL2JXOYD__GF-2tncoEVUj4/edit?usp=sharing' },
-	              _react2.default.createElement(
-	                'i',
-	                { className: 'fa fa-file-text fa-3x', style: { color: 'white' }, 'aria-hidden': 'true' },
-	                '  My Resume'
-	              )
+	              _react2.default.createElement('i', { className: 'fa fa-file-text fa-3x', style: { color: 'white' }, 'aria-hidden': 'true' }),
+	              '  My Resume'
 	            )
 	          )
 	        )
