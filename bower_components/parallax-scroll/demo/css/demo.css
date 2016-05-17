@@ -1,0 +1,181 @@
+/* Scaffolding */
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "lato", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.778;
+  color: #222;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+a {
+  color: #228B22;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+/* Backgrounds */
+
+.bg-holder {
+  width: 100%;
+  height: 80%;
+  background-size: cover;
+  background-position: 50% 50%;
+  color: #fff;
+}
+
+.bg-holder .content {
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 1.5;
+}
+
+.pic1 {
+  background-image: url('../img/pic1.jpg');
+}
+
+.pic2 {
+  background-image: url('../img/pic2.jpg');
+}
+
+.pic3 {
+  background-image: url('../img/pic3.jpg');
+}
+
+@media (min-width: 768px) {
+  .pic1 {
+    background-image: url('../img/pic1_bigger.jpg');
+  }
+  .pic2 {
+    background-image: url('../img/pic2_bigger.jpg');
+  }
+  .pic3 {
+    background-image: url('../img/pic3_bigger.jpg');
+  }
+}
+
+
+/* Content Sections */
+
+section {
+  padding: 48px;
+}
+
+section .content {
+  margin: 0 auto;
+  max-width: 640px;
+}
+
+.content h2 {
+  margin: 0 0 16px;
+  font-size: 18px;
+}
+
+section p {
+  margin: 0;
+}
+
+section p + p {
+  text-indent: 2em;
+}
+
+section + hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  height: 0;
+}
+
+section .gist {
+  margin: 24px 0;
+}
+
+section .gist .gist-data {
+  border-bottom: 0;
+}
+
+section .gist-meta {
+  display: none;
+}
+
+.content code {
+  font-family: monospace, serif;
+  font-size: 16px;
+  color: gray;
+  white-space: nowrap;
+}
+
+
+/* Intro */
+
+.intro h1 {
+  margin: 0;
+  font-size: 48px;
+  line-height: 1.5;
+}
+
+.intro p {
+  margin: 0;
+  font-size: 24px;
+}
+
+.cta {
+  margin-top: 32px;
+}
+
+.btn-cta {
+  color: #fff;
+  font-size: 16px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin: 0 4px;
+  text-decoration: none;
+}
+
+.btn-cta:hover {
+  background-color: white;
+  color: #228B22;
+  text-decoration: none;
+}
+
+
+/* Footer */
+
+.footer {
+  text-align: center;
+}
+
+.social {
+  margin: 16px;
+  list-style: none;
+}
+
+.social li {
+  display: inline-block;
+  margin: 8px;
+}

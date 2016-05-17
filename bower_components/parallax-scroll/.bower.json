@@ -1,0 +1,35 @@
+{
+  "name": "parallax-scroll",
+  "homepage": "https://github.com/aentan/Parallax-Scroll",
+  "authors": [
+    "Aen Tan <hello@aentan.com>"
+  ],
+  "description": "jQuery plugin for background-attachment: scroll with friction, similar to the parallax scrolling effect on Spotify.",
+  "main": "jquery.parallax-scroll.js",
+  "keywords": [
+    "background",
+    "parallax",
+    "scroll"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "latest"
+  },
+  "_release": "7240ce5062",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "7240ce5062c2f5805831266e7f27e79381e4b9a9"
+  },
+  "_source": "https://github.com/aentan/Parallax-Scroll.git",
+  "_target": "*",
+  "_originalSource": "parallax-scroll",
+  "_direct": true
+}
