@@ -7,7 +7,7 @@ class TinnrWall extends Component {
     this.props = props;
   }
   render() {
-    const classes = CN(this.props.wall, this.props.background);;
+    const classes = CN(this.props.wall, this.props.background, 'container');;
     return (
       <div className={classes}>
         <div className='container'>
