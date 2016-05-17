@@ -40890,10 +40890,73 @@
 	              _react2.default.createElement(
 	                'div',
 	                { className: 'center gilsonText' },
-	                _react2.default.createElement('i', { className: 'fa fa-area-chart fa-5x' }),
-	                'Team Rubicon Mobilizer'
+	                _react2.default.createElement(
+	                  'a',
+	                  { style: { color: 'white' }, href: 'https://gilson.herokuapp.com/' },
+	                  _react2.default.createElement('i', { className: 'fa fa-area-chart fa-5x' }),
+	                  'Team Rubicon Mobilizer'
+	                )
 	              ),
-	              _react2.default.createElement('img', { className: 'center-block', src: 'https://www.docusign.com/blog/wp-content/uploads/2016/03/Screen-Shot-2016-03-11-at-11.11.05-AM.png' })
+	              _react2.default.createElement(
+	                'a',
+	                { href: 'https://www.docusign.com/blog/docusign-and-team-rubicon-join-forces-to-streamline-disaster-relief-efforts-in-hack-for-good/' },
+	                _react2.default.createElement('img', { className: 'center-block', src: 'https://www.docusign.com/blog/wp-content/uploads/2016/03/Screen-Shot-2016-03-11-at-11.11.05-AM.png' })
+	              ),
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'center gilsonText' },
+	                'Grand Prize winning Team Gilsons!',
+	                _react2.default.createElement(
+	                  'a',
+	                  { href: 'https://github.com/mickberber' },
+	                  _react2.default.createElement(
+	                    'h5',
+	                    null,
+	                    'Myself  ',
+	                    _react2.default.createElement('img', { src: './src/assets/github-32.png' })
+	                  )
+	                ),
+	                _react2.default.createElement(
+	                  'a',
+	                  { href: 'https://github.com/seanagibson' },
+	                  _react2.default.createElement(
+	                    'h5',
+	                    null,
+	                    'Sean Gibson  ',
+	                    _react2.default.createElement('img', { src: './src/assets/github-32.png' })
+	                  )
+	                ),
+	                _react2.default.createElement(
+	                  'a',
+	                  { href: 'https://github.com/malekascha' },
+	                  _react2.default.createElement(
+	                    'h5',
+	                    null,
+	                    'Malek Ascha  ',
+	                    _react2.default.createElement('img', { src: './src/assets/github-32.png' })
+	                  )
+	                ),
+	                _react2.default.createElement(
+	                  'a',
+	                  { href: 'https://github.com/elliotschi' },
+	                  _react2.default.createElement(
+	                    'h5',
+	                    null,
+	                    'Elliot Chi  ',
+	                    _react2.default.createElement('img', { src: './src/assets/github-32.png' })
+	                  )
+	                ),
+	                _react2.default.createElement(
+	                  'a',
+	                  { href: 'https://github.com/bgoodfliesh' },
+	                  _react2.default.createElement(
+	                    'h5',
+	                    null,
+	                    'Brandon Goodfliesh  ',
+	                    _react2.default.createElement('img', { src: './src/assets/github-32.png' })
+	                  )
+	                )
+	              )
 	            ),
 	            _react2.default.createElement('div', { className: 'col-md-2' })
 	          )
@@ -40954,7 +41017,7 @@
 	  _createClass(ChutteWall, [{
 	    key: 'render',
 	    value: function render() {
-	      var classes = (0, _classnames2.default)(this.props.wall, this.props.background);;
+	      var classes = (0, _classnames2.default)(this.props.wall, this.props.background);
 	      return _react2.default.createElement(
 	        'div',
 	        { className: classes },
