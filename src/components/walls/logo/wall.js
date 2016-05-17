@@ -14,7 +14,12 @@ class LogoWall extends Component {
         <div className='container'>
           <div className='row'>
             <div className='col-md-2' />
-            <div className='col-md-8'></div>
+            <div className='col-md-8 center'>
+              This site was built with:
+              <img style={{height: '100px', width: '70px'}}src='./../assets/wallAssets/reactjs.png' />
+              And deployed on:
+              <img style={{height: '100px', width: '120px'}}src='./../assets/wallAssets/heroku.png' />
+            </div>
             <div className='col-md-2' />
           </div>
         </div>

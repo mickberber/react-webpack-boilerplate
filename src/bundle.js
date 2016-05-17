@@ -40819,7 +40819,14 @@
 	            'div',
 	            { className: 'row' },
 	            _react2.default.createElement('div', { className: 'col-md-2' }),
-	            _react2.default.createElement('div', { className: 'col-md-8' }),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'col-md-8 center' },
+	              'This site was built with:',
+	              _react2.default.createElement('img', { style: { height: '100px', width: '70px' }, src: './../assets/wallAssets/reactjs.png' }),
+	              'And deployed on:',
+	              _react2.default.createElement('img', { style: { height: '100px', width: '120px' }, src: './../assets/wallAssets/heroku.png' })
+	            ),
 	            _react2.default.createElement('div', { className: 'col-md-2' })
 	          )
 	        )
