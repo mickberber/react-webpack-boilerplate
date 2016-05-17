@@ -36,10 +36,11 @@ class NavBar extends Component {
         </Nav>
         <Nav pullRight>
           <NavItem eventKey={1} href="https://www.linkedin.com/in/michaelberber">
-          <i className='fa fa-linkedin-square fa-3x' style={{color:'white'}} aria-hidden='true'></i>  LinkedIn</NavItem>
+            <i className='fa fa-linkedin-square fa-3x' style={{color:'white'}} aria-hidden='true'></i>  LinkedIn</NavItem>
           <NavItem eventKey={2} href="https://www.github.com/mickberber">
-          <i className='fa fa-github-square fa-3x' style={{color:'white'}} aria-hidden='true'></i>  Github</NavItem>
-          <NavItem>
+            <i className='fa fa-github-square fa-3x' style={{color:'white'}} aria-hidden='true'></i>  Github</NavItem>
+          <NavItem eventKey={3} href='https://docs.google.com/document/d/1Upptm3WFDf4_vZV9MR7rHL2JXOYD__GF-2tncoEVUj4/edit?usp=sharing'>
+            <i className='fa fa-file-text fa-3x' style={{color:'white'}} aria-hidden='true'>  My Resume</i>
           </NavItem>
         </Nav>
         </Navbar.Collapse>
