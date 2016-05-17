@@ -40749,7 +40749,7 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        'div',
-	        null,
+	        { className: 'container' },
 	        _react2.default.createElement(_wall2.default, { background: 'logoBackground', wall: 'logoStructure' }),
 	        _react2.default.createElement(_gilsonWall2.default, { background: 'gilsonBackground', wall: 'gilsonStructure' }),
 	        _react2.default.createElement(_mcTestingWall2.default, { background: 'mcTestingBackground', wall: 'mcTestingStructure' }),
@@ -40808,10 +40808,10 @@
 	  _createClass(LogoWall, [{
 	    key: 'render',
 	    value: function render() {
-	      var classes = (0, _classnames2.default)(this.props.wall, this.props.background, 'center', 'container');
+	      var classesWall = (0, _classnames2.default)(this.props.wall, this.props.background, 'center', 'container');
 	      return _react2.default.createElement(
 	        'div',
-	        { className: classes },
+	        { className: classesWall },
 	        _react2.default.createElement(
 	          'div',
 	          { className: 'container' },
@@ -41026,10 +41026,10 @@
 	  _createClass(ChutteWall, [{
 	    key: 'render',
 	    value: function render() {
-	      var classes = (0, _classnames2.default)(this.props.wall, this.props.background, 'container');
+	      var classesWall = (0, _classnames2.default)(this.props.wall, this.props.background, 'container');
 	      return _react2.default.createElement(
 	        'div',
-	        { className: classes },
+	        { className: classesWall },
 	        _react2.default.createElement(
 	          'div',
 	          { className: 'container' },
@@ -54009,10 +54009,10 @@
 	  _createClass(SocialWall, [{
 	    key: 'render',
 	    value: function render() {
-	      var classes = (0, _classnames2.default)(this.props.wall, this.props.background, 'container');;
+	      var classesWall = (0, _classnames2.default)(this.props.wall, this.props.background, 'container');;
 	      return _react2.default.createElement(
 	        'div',
-	        { className: classes },
+	        { className: classesWall },
 	        _react2.default.createElement(
 	          'div',
 	          { className: 'container' },
@@ -54154,10 +54154,10 @@
 	  _createClass(TinnrWall, [{
 	    key: 'render',
 	    value: function render() {
-	      var classes = (0, _classnames2.default)(this.props.wall, this.props.background, 'container');;
+	      var classesWall = (0, _classnames2.default)(this.props.wall, this.props.background, 'container');;
 	      return _react2.default.createElement(
 	        'div',
-	        { className: classes },
+	        { className: classesWall },
 	        _react2.default.createElement(
 	          'div',
 	          { className: 'container' },
@@ -54299,10 +54299,10 @@
 	  _createClass(McTestingWall, [{
 	    key: 'render',
 	    value: function render() {
-	      var classes = (0, _classnames2.default)(this.props.wall, this.props.background, 'container');;
+	      var classesWall = (0, _classnames2.default)(this.props.wall, this.props.background, 'container');;
 	      return _react2.default.createElement(
 	        'div',
-	        { className: classes },
+	        { className: classesWall },
 	        _react2.default.createElement(
 	          'div',
 	          { className: 'container' },
