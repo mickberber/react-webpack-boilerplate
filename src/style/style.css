@@ -146,3 +146,10 @@
   width: 80%;
   margin: auto;
 }
+
+/* For mobile phones: */
+@media only screen and (max-width: 900px) {
+	[class*="col-"] {
+			width: 100%;
+	}
+}
