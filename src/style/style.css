@@ -22,15 +22,14 @@
 	width: 100%;
 	background: #bbbbbb;
 	z-index: 1;
+}
+
+.logoBackground {
 	background: url('./../src/assets/mblogo.png');
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center;
   background-size: contain;
-}
-
-.logoBackground {
-
 }
 
 /* Gilson Wall Attributes */
