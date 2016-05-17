@@ -1,3 +1,8 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 .center {
   text-align: center;
 }
@@ -12,6 +17,8 @@
 
 /* Logo Wall Attributes */
 .logoStructure {
+  position: static;
+
 	height: 620px;
 	width: 100%;
 	background: #bbbbbb;
@@ -29,6 +36,7 @@
 /* Gilson Wall Attributes */
 
 .gilsonStructure {
+  position: static;
 	height: 800px;
 	width: 100%;
 	background: #bbbbbb;
@@ -53,6 +61,7 @@
 /* Chutte Wall Attributes */
 
 .chutteStructure {
+  position: static;
 	height: 800px;
 	width: 100%;
 	background: #bbbbbb;
@@ -75,6 +84,7 @@
 /* Social Flix Wall Attributes */
 
 .socialStructure {
+  position: static;
 	height: 800px;
 	width: 100%;
 	background: #bbbbbb;
@@ -92,6 +102,7 @@
 /* Tinnr++ Wall Attributes */
 
 .tinnrStructure {
+  position: static;
 	height: 800px;
 	width: 100%;
 	background: #bbbbbb;
@@ -109,6 +120,7 @@
 /* McTesting.js Wall Attributes */
 
 .mcTestingStructure {
+  position: static;
 	height: 800px;
 	width: 100%;
 	background: #bbbbbb;
