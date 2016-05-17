@@ -41110,7 +41110,7 @@
 	        height: '390',
 	        width: '640',
 	        playerVars: { // https://developers.google.com/youtube/player_parameters
-	          autoplay: 1
+	          autoplay: 0
 	        }
 	      };
 	      var classes = (0, _classnames2.default)('center-block');
