@@ -41047,10 +41047,11 @@
 	                  null,
 	                  'A reverse auction style marketplace.'
 	                ),
+	                _react2.default.createElement('img', { style: { height: '50px', width: '50px' }, src: './../assets/wallAssets/kgbjs.png' }),
 	                _react2.default.createElement(
-	                  'h3',
+	                  'h4',
 	                  null,
-	                  'MiddleOutHomeBrewCrew  '
+	                  'KGBJS'
 	                ),
 	                _react2.default.createElement(
 	                  'a',
