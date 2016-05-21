@@ -40808,27 +40808,23 @@
 	  _createClass(LogoWall, [{
 	    key: 'render',
 	    value: function render() {
-	      var classesWall = (0, _classnames2.default)(this.props.wall, this.props.background, 'center', 'container-fluid');
+	      var classesWall = (0, _classnames2.default)(this.props.wall, this.props.background, 'center');
 	      return _react2.default.createElement(
 	        'div',
 	        { className: classesWall },
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'container-fluid' },
+	          { className: 'row' },
+	          _react2.default.createElement('div', { className: 'col-xs-3 col-md-2' }),
 	          _react2.default.createElement(
 	            'div',
-	            { className: 'row' },
-	            _react2.default.createElement('div', { className: 'col-xs-3 col-md-2' }),
-	            _react2.default.createElement(
-	              'div',
-	              { className: 'col-xs-12 col-md-8 center' },
-	              'This site was built with:',
-	              _react2.default.createElement('img', { style: { height: '100px', width: '70px' }, src: './../assets/wallAssets/reactjs.png' }),
-	              'And deployed on:',
-	              _react2.default.createElement('img', { style: { height: '100px', width: '120px' }, src: './../assets/wallAssets/heroku.png' })
-	            ),
-	            _react2.default.createElement('div', { className: 'col-xs-3 col-md-2' })
-	          )
+	            { className: 'col-xs-12 col-md-8 center' },
+	            'This site was built with:',
+	            _react2.default.createElement('img', { style: { height: '100px', width: '70px' }, src: './../assets/wallAssets/reactjs.png' }),
+	            'And deployed on:',
+	            _react2.default.createElement('img', { style: { height: '100px', width: '120px' }, src: './../assets/wallAssets/heroku.png' })
+	          ),
+	          _react2.default.createElement('div', { className: 'col-xs-3 col-md-2' })
 	        )
 	      );
 	    }
@@ -40882,93 +40878,89 @@
 	  _createClass(GilsonWall, [{
 	    key: 'render',
 	    value: function render() {
-	      var classesWall = (0, _classnames2.default)(this.props.wall, this.props.background, 'container-fluid');;
+	      var classesWall = (0, _classnames2.default)(this.props.wall, this.props.background);;
 	      return _react2.default.createElement(
 	        'div',
 	        { className: classesWall },
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'container-fluid' },
+	          { className: 'row' },
+	          _react2.default.createElement('div', { className: 'col-xs-3 col-md-2' }),
 	          _react2.default.createElement(
 	            'div',
-	            { className: 'row' },
-	            _react2.default.createElement('div', { className: 'col-xs-3 col-md-2' }),
+	            { className: 'col-xs-12 col-md-8' },
 	            _react2.default.createElement(
 	              'div',
-	              { className: 'col-xs-12 col-md-8' },
+	              { className: 'center gilsonText' },
 	              _react2.default.createElement(
-	                'div',
-	                { className: 'center gilsonText' },
+	                'a',
+	                { style: { color: 'white' }, href: 'https://gilson.herokuapp.com/' },
+	                _react2.default.createElement('i', { className: 'fa fa-area-chart fa-5x' }),
+	                'Team Rubicon Mobilizer'
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'a',
+	              { href: 'https://www.docusign.com/blog/docusign-and-team-rubicon-join-forces-to-streamline-disaster-relief-efforts-in-hack-for-good/' },
+	              _react2.default.createElement('img', { className: 'center-block', src: 'https://www.docusign.com/blog/wp-content/uploads/2016/03/Screen-Shot-2016-03-11-at-11.11.05-AM.png' })
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'center gilsonText' },
+	              'Grand Prize winning Team Gilsons!',
+	              _react2.default.createElement(
+	                'a',
+	                { href: 'https://github.com/mickberber' },
 	                _react2.default.createElement(
-	                  'a',
-	                  { style: { color: 'white' }, href: 'https://gilson.herokuapp.com/' },
-	                  _react2.default.createElement('i', { className: 'fa fa-area-chart fa-5x' }),
-	                  'Team Rubicon Mobilizer'
+	                  'h5',
+	                  null,
+	                  'Myself  ',
+	                  _react2.default.createElement('img', { src: './src/assets/github-32.png' })
 	                )
 	              ),
 	              _react2.default.createElement(
 	                'a',
-	                { href: 'https://www.docusign.com/blog/docusign-and-team-rubicon-join-forces-to-streamline-disaster-relief-efforts-in-hack-for-good/' },
-	                _react2.default.createElement('img', { className: 'center-block', src: 'https://www.docusign.com/blog/wp-content/uploads/2016/03/Screen-Shot-2016-03-11-at-11.11.05-AM.png' })
+	                { href: 'https://github.com/seanagibson' },
+	                _react2.default.createElement(
+	                  'h5',
+	                  null,
+	                  'Sean Gibson  ',
+	                  _react2.default.createElement('img', { src: './src/assets/github-32.png' })
+	                )
 	              ),
 	              _react2.default.createElement(
-	                'div',
-	                { className: 'center gilsonText' },
-	                'Grand Prize winning Team Gilsons!',
+	                'a',
+	                { href: 'https://github.com/malekascha' },
 	                _react2.default.createElement(
-	                  'a',
-	                  { href: 'https://github.com/mickberber' },
-	                  _react2.default.createElement(
-	                    'h5',
-	                    null,
-	                    'Myself  ',
-	                    _react2.default.createElement('img', { src: './src/assets/github-32.png' })
-	                  )
-	                ),
+	                  'h5',
+	                  null,
+	                  'Malek Ascha  ',
+	                  _react2.default.createElement('img', { src: './src/assets/github-32.png' })
+	                )
+	              ),
+	              _react2.default.createElement(
+	                'a',
+	                { href: 'https://github.com/elliotschi' },
 	                _react2.default.createElement(
-	                  'a',
-	                  { href: 'https://github.com/seanagibson' },
-	                  _react2.default.createElement(
-	                    'h5',
-	                    null,
-	                    'Sean Gibson  ',
-	                    _react2.default.createElement('img', { src: './src/assets/github-32.png' })
-	                  )
-	                ),
+	                  'h5',
+	                  null,
+	                  'Elliot Chi  ',
+	                  _react2.default.createElement('img', { src: './src/assets/github-32.png' })
+	                )
+	              ),
+	              _react2.default.createElement(
+	                'a',
+	                { href: 'https://github.com/bgoodfliesh' },
 	                _react2.default.createElement(
-	                  'a',
-	                  { href: 'https://github.com/malekascha' },
-	                  _react2.default.createElement(
-	                    'h5',
-	                    null,
-	                    'Malek Ascha  ',
-	                    _react2.default.createElement('img', { src: './src/assets/github-32.png' })
-	                  )
-	                ),
-	                _react2.default.createElement(
-	                  'a',
-	                  { href: 'https://github.com/elliotschi' },
-	                  _react2.default.createElement(
-	                    'h5',
-	                    null,
-	                    'Elliot Chi  ',
-	                    _react2.default.createElement('img', { src: './src/assets/github-32.png' })
-	                  )
-	                ),
-	                _react2.default.createElement(
-	                  'a',
-	                  { href: 'https://github.com/bgoodfliesh' },
-	                  _react2.default.createElement(
-	                    'h5',
-	                    null,
-	                    'Brandon Goodfliesh  ',
-	                    _react2.default.createElement('img', { src: './src/assets/github-32.png' })
-	                  )
+	                  'h5',
+	                  null,
+	                  'Brandon Goodfliesh  ',
+	                  _react2.default.createElement('img', { src: './src/assets/github-32.png' })
 	                )
 	              )
-	            ),
-	            _react2.default.createElement('div', { className: 'col-xs-3 col-md-2' })
-	          )
+	            )
+	          ),
+	          _react2.default.createElement('div', { className: 'col-xs-3 col-md-2' })
 	        )
 	      );
 	    }
@@ -41026,84 +41018,80 @@
 	  _createClass(ChutteWall, [{
 	    key: 'render',
 	    value: function render() {
-	      var classesWall = (0, _classnames2.default)(this.props.wall, this.props.background, 'container-fluid');
+	      var classesWall = (0, _classnames2.default)(this.props.wall, this.props.background);
 	      return _react2.default.createElement(
 	        'div',
 	        { className: classesWall },
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'container-fluid' },
+	          { className: 'row' },
+	          _react2.default.createElement('div', { className: 'col-xs-3 col-md-2' }),
 	          _react2.default.createElement(
 	            'div',
-	            { className: 'row' },
-	            _react2.default.createElement('div', { className: 'col-xs-3 col-md-2' }),
+	            { className: 'col-xs-12 col-md-8' },
+	            _react2.default.createElement(_VideoPlayer2.default, null),
 	            _react2.default.createElement(
 	              'div',
-	              { className: 'col-xs-12 col-md-8' },
-	              _react2.default.createElement(_VideoPlayer2.default, null),
+	              { className: 'center' },
 	              _react2.default.createElement(
-	                'div',
-	                { className: 'center' },
+	                'h3',
+	                null,
+	                'Chutte.com'
+	              ),
+	              _react2.default.createElement(
+	                'h3',
+	                null,
+	                'A reverse auction style marketplace.'
+	              ),
+	              _react2.default.createElement('img', { style: { height: '50px', width: '50px' }, src: './../assets/wallAssets/kgbjs.png' }),
+	              _react2.default.createElement(
+	                'h4',
+	                null,
+	                'KGBJS'
+	              ),
+	              _react2.default.createElement(
+	                'a',
+	                { href: 'https://github.com/mickberber' },
 	                _react2.default.createElement(
-	                  'h3',
+	                  'h5',
 	                  null,
-	                  'Chutte.com'
-	                ),
+	                  'Myself  ',
+	                  _react2.default.createElement('img', { src: './src/assets/GitHub-Mark-32px.png' })
+	                )
+	              ),
+	              _react2.default.createElement(
+	                'a',
+	                { href: 'https://github.com/seanagibson' },
 	                _react2.default.createElement(
-	                  'h3',
+	                  'h5',
 	                  null,
-	                  'A reverse auction style marketplace.'
-	                ),
-	                _react2.default.createElement('img', { style: { height: '50px', width: '50px' }, src: './../assets/wallAssets/kgbjs.png' }),
+	                  'Sean Gibson  ',
+	                  _react2.default.createElement('img', { src: './src/assets/GitHub-Mark-32px.png' })
+	                )
+	              ),
+	              _react2.default.createElement(
+	                'a',
+	                { href: 'https://github.com/peterkaiserui' },
 	                _react2.default.createElement(
-	                  'h4',
+	                  'h5',
 	                  null,
-	                  'KGBJS'
-	                ),
+	                  'Peter Kaiser  ',
+	                  _react2.default.createElement('img', { src: './src/assets/GitHub-Mark-32px.png' })
+	                )
+	              ),
+	              _react2.default.createElement(
+	                'a',
+	                { href: 'https://github.com/beresford211' },
 	                _react2.default.createElement(
-	                  'a',
-	                  { href: 'https://github.com/mickberber' },
-	                  _react2.default.createElement(
-	                    'h5',
-	                    null,
-	                    'Myself  ',
-	                    _react2.default.createElement('img', { src: './src/assets/GitHub-Mark-32px.png' })
-	                  )
-	                ),
-	                _react2.default.createElement(
-	                  'a',
-	                  { href: 'https://github.com/seanagibson' },
-	                  _react2.default.createElement(
-	                    'h5',
-	                    null,
-	                    'Sean Gibson  ',
-	                    _react2.default.createElement('img', { src: './src/assets/GitHub-Mark-32px.png' })
-	                  )
-	                ),
-	                _react2.default.createElement(
-	                  'a',
-	                  { href: 'https://github.com/peterkaiserui' },
-	                  _react2.default.createElement(
-	                    'h5',
-	                    null,
-	                    'Peter Kaiser  ',
-	                    _react2.default.createElement('img', { src: './src/assets/GitHub-Mark-32px.png' })
-	                  )
-	                ),
-	                _react2.default.createElement(
-	                  'a',
-	                  { href: 'https://github.com/beresford211' },
-	                  _react2.default.createElement(
-	                    'h5',
-	                    null,
-	                    'Tim Steele  ',
-	                    _react2.default.createElement('img', { src: './src/assets/GitHub-Mark-32px.png' })
-	                  )
+	                  'h5',
+	                  null,
+	                  'Tim Steele  ',
+	                  _react2.default.createElement('img', { src: './src/assets/GitHub-Mark-32px.png' })
 	                )
 	              )
-	            ),
-	            _react2.default.createElement('div', { className: 'col-xs-3 col-md-2' })
-	          )
+	            )
+	          ),
+	          _react2.default.createElement('div', { className: 'col-xs-3 col-md-2' })
 	        )
 	      );
 	    }
@@ -54009,93 +53997,89 @@
 	  _createClass(SocialWall, [{
 	    key: 'render',
 	    value: function render() {
-	      var classesWall = (0, _classnames2.default)(this.props.wall, this.props.background, 'container-fluid');
+	      var classesWall = (0, _classnames2.default)(this.props.wall, this.props.background);
 	      return _react2.default.createElement(
 	        'div',
 	        { className: classesWall },
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'container-fluid' },
+	          { className: 'row' },
+	          _react2.default.createElement('div', { className: 'col-xs-3 col-md-2' }),
+	          _react2.default.createElement('div', { className: 'col-xs-3 col-md-2' }),
 	          _react2.default.createElement(
 	            'div',
-	            { className: 'row' },
-	            _react2.default.createElement('div', { className: 'col-xs-3 col-md-2' }),
-	            _react2.default.createElement('div', { className: 'col-xs-3 col-md-2' }),
+	            { className: 'col-xs-12 col-md-8' },
 	            _react2.default.createElement(
 	              'div',
-	              { className: 'col-xs-12 col-md-8' },
+	              { className: 'right whiteText' },
+	              _react2.default.createElement(
+	                'h3',
+	                null,
+	                _react2.default.createElement(
+	                  'a',
+	                  { href: 'https://www.github.com/HomeBrewCrewX/tinnr' },
+	                  'Socialflix ',
+	                  _react2.default.createElement('img', { src: './src/assets/github-32.png' })
+	                )
+	              ),
+	              _react2.default.createElement(
+	                'h3',
+	                null,
+	                'A synchronized video web application'
+	              ),
+	              _react2.default.createElement(
+	                'h4',
+	                null,
+	                'Making group distance video binging possible'
+	              ),
+	              _react2.default.createElement(
+	                'h4',
+	                null,
+	                'Via ',
+	                _react2.default.createElement('img', { style: { height: '50px', width: '100px' }, src: './src/assets//wallAssets/socketio.png' })
+	              ),
 	              _react2.default.createElement(
 	                'div',
-	                { className: 'right whiteText' },
+	                { className: 'right' },
+	                'MiddleOutHomeBrewCrew',
 	                _react2.default.createElement(
-	                  'h3',
-	                  null,
+	                  'a',
+	                  { href: 'https://github.com/mickberber' },
 	                  _react2.default.createElement(
-	                    'a',
-	                    { href: 'https://www.github.com/HomeBrewCrewX/tinnr' },
-	                    'Socialflix ',
+	                    'h5',
+	                    null,
+	                    'Myself  ',
 	                    _react2.default.createElement('img', { src: './src/assets/github-32.png' })
 	                  )
 	                ),
 	                _react2.default.createElement(
-	                  'h3',
-	                  null,
-	                  'A synchronized video web application'
+	                  'a',
+	                  { href: 'https://github.com/ycube' },
+	                  _react2.default.createElement(
+	                    'h5',
+	                    null,
+	                    'Yale Yuen  ',
+	                    _react2.default.createElement('img', { src: './src/assets/github-32.png' })
+	                  )
 	                ),
 	                _react2.default.createElement(
-	                  'h4',
-	                  null,
-	                  'Making group distance video binging possible'
+	                  'a',
+	                  { href: 'https://github.com/abibbs' },
+	                  _react2.default.createElement(
+	                    'h5',
+	                    null,
+	                    'Anthony Bibbs  ',
+	                    _react2.default.createElement('img', { src: './src/assets/github-32.png' })
+	                  )
 	                ),
 	                _react2.default.createElement(
-	                  'h4',
-	                  null,
-	                  'Via ',
-	                  _react2.default.createElement('img', { style: { height: '50px', width: '100px' }, src: './src/assets//wallAssets/socketio.png' })
-	                ),
-	                _react2.default.createElement(
-	                  'div',
-	                  { className: 'right' },
-	                  'MiddleOutHomeBrewCrew',
+	                  'a',
+	                  { href: 'https://github.com/spiterman' },
 	                  _react2.default.createElement(
-	                    'a',
-	                    { href: 'https://github.com/mickberber' },
-	                    _react2.default.createElement(
-	                      'h5',
-	                      null,
-	                      'Myself  ',
-	                      _react2.default.createElement('img', { src: './src/assets/github-32.png' })
-	                    )
-	                  ),
-	                  _react2.default.createElement(
-	                    'a',
-	                    { href: 'https://github.com/ycube' },
-	                    _react2.default.createElement(
-	                      'h5',
-	                      null,
-	                      'Yale Yuen  ',
-	                      _react2.default.createElement('img', { src: './src/assets/github-32.png' })
-	                    )
-	                  ),
-	                  _react2.default.createElement(
-	                    'a',
-	                    { href: 'https://github.com/abibbs' },
-	                    _react2.default.createElement(
-	                      'h5',
-	                      null,
-	                      'Anthony Bibbs  ',
-	                      _react2.default.createElement('img', { src: './src/assets/github-32.png' })
-	                    )
-	                  ),
-	                  _react2.default.createElement(
-	                    'a',
-	                    { href: 'https://github.com/spiterman' },
-	                    _react2.default.createElement(
-	                      'h5',
-	                      null,
-	                      'Sergey Piterman  ',
-	                      _react2.default.createElement('img', { src: './src/assets/github-32.png' })
-	                    )
+	                    'h5',
+	                    null,
+	                    'Sergey Piterman  ',
+	                    _react2.default.createElement('img', { src: './src/assets/github-32.png' })
 	                  )
 	                )
 	              )
@@ -54154,93 +54138,89 @@
 	  _createClass(TinnrWall, [{
 	    key: 'render',
 	    value: function render() {
-	      var classesWall = (0, _classnames2.default)(this.props.wall, this.props.background, 'container-fluid');;
+	      var classesWall = (0, _classnames2.default)(this.props.wall, this.props.background);
 	      return _react2.default.createElement(
 	        'div',
 	        { className: classesWall },
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'container-fluid' },
+	          { className: 'row' },
+	          _react2.default.createElement('div', { className: 'col-xs-3 col-md-2' }),
+	          _react2.default.createElement('div', { className: 'col-xs-3 col-md-2' }),
 	          _react2.default.createElement(
 	            'div',
-	            { className: 'row' },
-	            _react2.default.createElement('div', { className: 'col-xs-3 col-md-2' }),
-	            _react2.default.createElement('div', { className: 'col-xs-3 col-md-2' }),
+	            { className: 'col-xs-12 col-md-8' },
 	            _react2.default.createElement(
 	              'div',
-	              { className: 'col-xs-12 col-md-8' },
+	              { className: 'right' },
+	              _react2.default.createElement(
+	                'h3',
+	                null,
+	                _react2.default.createElement(
+	                  'a',
+	                  { href: 'https://www.github.com/HomeBrewCrewX/tinnr' },
+	                  'Tinnr++ ',
+	                  _react2.default.createElement('img', { src: './src/assets/GitHub-Mark-32px.png' })
+	                )
+	              ),
+	              _react2.default.createElement(
+	                'h3',
+	                null,
+	                'A web application to help pick recipes'
+	              ),
+	              _react2.default.createElement(
+	                'h4',
+	                null,
+	                'With mobile swiping capability'
+	              ),
+	              _react2.default.createElement(
+	                'h4',
+	                null,
+	                'Via ',
+	                _react2.default.createElement('img', { style: { height: '50px', width: '100px' }, src: './src/assets/hammer.png' })
+	              ),
 	              _react2.default.createElement(
 	                'div',
 	                { className: 'right' },
+	                'MiddleOutHomeBrewCrew',
 	                _react2.default.createElement(
-	                  'h3',
-	                  null,
+	                  'a',
+	                  { href: 'https://github.com/mickberber' },
 	                  _react2.default.createElement(
-	                    'a',
-	                    { href: 'https://www.github.com/HomeBrewCrewX/tinnr' },
-	                    'Tinnr++ ',
+	                    'h5',
+	                    null,
+	                    'Myself  ',
 	                    _react2.default.createElement('img', { src: './src/assets/GitHub-Mark-32px.png' })
 	                  )
 	                ),
 	                _react2.default.createElement(
-	                  'h3',
-	                  null,
-	                  'A web application to help pick recipes'
+	                  'a',
+	                  { href: 'https://github.com/ycube' },
+	                  _react2.default.createElement(
+	                    'h5',
+	                    null,
+	                    'Yale Yuen  ',
+	                    _react2.default.createElement('img', { src: './src/assets/GitHub-Mark-32px.png' })
+	                  )
 	                ),
 	                _react2.default.createElement(
-	                  'h4',
-	                  null,
-	                  'With mobile swiping capability'
+	                  'a',
+	                  { href: 'https://github.com/abibbs' },
+	                  _react2.default.createElement(
+	                    'h5',
+	                    null,
+	                    'Anthony Bibbs  ',
+	                    _react2.default.createElement('img', { src: './src/assets/GitHub-Mark-32px.png' })
+	                  )
 	                ),
 	                _react2.default.createElement(
-	                  'h4',
-	                  null,
-	                  'Via ',
-	                  _react2.default.createElement('img', { style: { height: '50px', width: '100px' }, src: './src/assets/hammer.png' })
-	                ),
-	                _react2.default.createElement(
-	                  'div',
-	                  { className: 'right' },
-	                  'MiddleOutHomeBrewCrew',
+	                  'a',
+	                  { href: 'https://github.com/spiterman' },
 	                  _react2.default.createElement(
-	                    'a',
-	                    { href: 'https://github.com/mickberber' },
-	                    _react2.default.createElement(
-	                      'h5',
-	                      null,
-	                      'Myself  ',
-	                      _react2.default.createElement('img', { src: './src/assets/GitHub-Mark-32px.png' })
-	                    )
-	                  ),
-	                  _react2.default.createElement(
-	                    'a',
-	                    { href: 'https://github.com/ycube' },
-	                    _react2.default.createElement(
-	                      'h5',
-	                      null,
-	                      'Yale Yuen  ',
-	                      _react2.default.createElement('img', { src: './src/assets/GitHub-Mark-32px.png' })
-	                    )
-	                  ),
-	                  _react2.default.createElement(
-	                    'a',
-	                    { href: 'https://github.com/abibbs' },
-	                    _react2.default.createElement(
-	                      'h5',
-	                      null,
-	                      'Anthony Bibbs  ',
-	                      _react2.default.createElement('img', { src: './src/assets/GitHub-Mark-32px.png' })
-	                    )
-	                  ),
-	                  _react2.default.createElement(
-	                    'a',
-	                    { href: 'https://github.com/spiterman' },
-	                    _react2.default.createElement(
-	                      'h5',
-	                      null,
-	                      'Sergey Piterman  ',
-	                      _react2.default.createElement('img', { src: './src/assets/GitHub-Mark-32px.png' })
-	                    )
+	                    'h5',
+	                    null,
+	                    'Sergey Piterman  ',
+	                    _react2.default.createElement('img', { src: './src/assets/GitHub-Mark-32px.png' })
 	                  )
 	                )
 	              )
@@ -54299,54 +54279,50 @@
 	  _createClass(McTestingWall, [{
 	    key: 'render',
 	    value: function render() {
-	      var classesWall = (0, _classnames2.default)(this.props.wall, this.props.background, 'container-fluid');;
+	      var classesWall = (0, _classnames2.default)(this.props.wall, this.props.background);;
 	      return _react2.default.createElement(
 	        'div',
 	        { className: classesWall },
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'container-fluid' },
+	          { className: 'row' },
+	          _react2.default.createElement('div', { className: 'col-xs-3 col-md-2' }),
+	          _react2.default.createElement('div', { className: 'col-xs-3 col-md-2' }),
 	          _react2.default.createElement(
 	            'div',
-	            { className: 'row' },
-	            _react2.default.createElement('div', { className: 'col-xs-3 col-md-2' }),
-	            _react2.default.createElement('div', { className: 'col-xs-3 col-md-2' }),
+	            { className: 'col-xs-12 col-md-8' },
 	            _react2.default.createElement(
 	              'div',
-	              { className: 'col-xs-12 col-md-8' },
+	              { className: 'right' },
 	              _react2.default.createElement(
-	                'div',
-	                { className: 'right' },
+	                'h3',
+	                null,
 	                _react2.default.createElement(
-	                  'h3',
-	                  null,
-	                  _react2.default.createElement(
-	                    'a',
-	                    { href: 'https://www.github.com/mickberber/mcTesting' },
-	                    'McTesting.js ',
-	                    _react2.default.createElement('img', { src: './src/assets/GitHub-Mark-32px.png' })
-	                  )
-	                ),
-	                _react2.default.createElement(
-	                  'h3',
-	                  null,
-	                  'npm install mc-testing'
-	                ),
-	                _react2.default.createElement(
-	                  'h4',
-	                  null,
-	                  'Simple test suite'
-	                ),
-	                _react2.default.createElement(
-	                  'h4',
-	                  null,
-	                  'I wanted to make my own,'
-	                ),
-	                _react2.default.createElement(
-	                  'h4',
-	                  null,
-	                  'to get a better handle on testing.'
+	                  'a',
+	                  { href: 'https://www.github.com/mickberber/mcTesting' },
+	                  'McTesting.js ',
+	                  _react2.default.createElement('img', { src: './src/assets/GitHub-Mark-32px.png' })
 	                )
+	              ),
+	              _react2.default.createElement(
+	                'h3',
+	                null,
+	                'npm install mc-testing'
+	              ),
+	              _react2.default.createElement(
+	                'h4',
+	                null,
+	                'Simple test suite'
+	              ),
+	              _react2.default.createElement(
+	                'h4',
+	                null,
+	                'I wanted to make my own,'
+	              ),
+	              _react2.default.createElement(
+	                'h4',
+	                null,
+	                'to get a better handle on testing.'
 	              )
 	            )
 	          )

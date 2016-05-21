@@ -7,10 +7,9 @@ class TinnrWall extends Component {
     this.props = props;
   }
   render() {
-    const classesWall = CN(this.props.wall, this.props.background, 'container-fluid');;
+    const classesWall = CN(this.props.wall, this.props.background);
     return (
       <div className={classesWall}>
-        <div className='container-fluid'>
           <div className='row'>
             <div className='col-xs-3 col-md-2' />
             <div className='col-xs-3 col-md-2' />
@@ -33,7 +32,6 @@ class TinnrWall extends Component {
               </div>
             </div>
           </div>
-        </div>
       </div>
     )
   }

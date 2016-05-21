@@ -7,10 +7,9 @@ class GilsonWall extends Component {
     this.props = props;
   }
   render() {
-    const classesWall = CN(this.props.wall, this.props.background, 'container-fluid');;
+    const classesWall = CN(this.props.wall, this.props.background);;
     return (
       <div className={classesWall}>
-        <div className='container-fluid'>
           <div className='row'>
             <div className='col-xs-3 col-md-2' />
             <div className='col-xs-12 col-md-8'>
@@ -30,7 +29,6 @@ class GilsonWall extends Component {
             </div>
             <div className='col-xs-3 col-md-2' />
           </div>
-        </div>
       </div>
     )
   }
