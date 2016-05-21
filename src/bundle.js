@@ -40749,7 +40749,7 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        'div',
-	        null,
+	        { className: 'container-fluid' },
 	        _react2.default.createElement(_wall2.default, { background: 'logoBackground', wall: 'logoStructure' }),
 	        _react2.default.createElement(_gilsonWall2.default, { background: 'gilsonBackground', wall: 'gilsonStructure' }),
 	        _react2.default.createElement(_mcTestingWall2.default, { background: 'mcTestingBackground', wall: 'mcTestingStructure' }),
@@ -40808,26 +40808,26 @@
 	  _createClass(LogoWall, [{
 	    key: 'render',
 	    value: function render() {
-	      var classesWall = (0, _classnames2.default)(this.props.wall, this.props.background, 'center', 'container');
+	      var classesWall = (0, _classnames2.default)(this.props.wall, this.props.background, 'center', 'container-fluid');
 	      return _react2.default.createElement(
 	        'div',
 	        { className: classesWall },
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'container' },
+	          { className: 'container-fluid' },
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'row' },
-	            _react2.default.createElement('div', { className: 'col-md-2' }),
+	            _react2.default.createElement('div', { className: 'col-xs-3 col-md-2' }),
 	            _react2.default.createElement(
 	              'div',
-	              { className: 'col-md-8 center' },
+	              { className: 'col-xs-12 col-md-8 center' },
 	              'This site was built with:',
 	              _react2.default.createElement('img', { style: { height: '100px', width: '70px' }, src: './../assets/wallAssets/reactjs.png' }),
 	              'And deployed on:',
 	              _react2.default.createElement('img', { style: { height: '100px', width: '120px' }, src: './../assets/wallAssets/heroku.png' })
 	            ),
-	            _react2.default.createElement('div', { className: 'col-md-2' })
+	            _react2.default.createElement('div', { className: 'col-xs-3 col-md-2' })
 	          )
 	        )
 	      );
@@ -40882,20 +40882,20 @@
 	  _createClass(GilsonWall, [{
 	    key: 'render',
 	    value: function render() {
-	      var classesWall = (0, _classnames2.default)(this.props.wall, this.props.background, 'container');;
+	      var classesWall = (0, _classnames2.default)(this.props.wall, this.props.background, 'container-fluid');;
 	      return _react2.default.createElement(
 	        'div',
 	        { className: classesWall },
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'container' },
+	          { className: 'container-fluid' },
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'row' },
-	            _react2.default.createElement('div', { className: 'col-md-2' }),
+	            _react2.default.createElement('div', { className: 'col-xs-3 col-md-2' }),
 	            _react2.default.createElement(
 	              'div',
-	              { className: 'col-md-8' },
+	              { className: 'col-xs-12 col-md-8' },
 	              _react2.default.createElement(
 	                'div',
 	                { className: 'center gilsonText' },
@@ -40967,7 +40967,7 @@
 	                )
 	              )
 	            ),
-	            _react2.default.createElement('div', { className: 'col-md-2' })
+	            _react2.default.createElement('div', { className: 'col-xs-3 col-md-2' })
 	          )
 	        )
 	      );
@@ -41026,20 +41026,20 @@
 	  _createClass(ChutteWall, [{
 	    key: 'render',
 	    value: function render() {
-	      var classesWall = (0, _classnames2.default)(this.props.wall, this.props.background, 'container');
+	      var classesWall = (0, _classnames2.default)(this.props.wall, this.props.background, 'container-fluid');
 	      return _react2.default.createElement(
 	        'div',
 	        { className: classesWall },
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'container' },
+	          { className: 'container-fluid' },
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'row' },
-	            _react2.default.createElement('div', { className: 'col-md-2' }),
+	            _react2.default.createElement('div', { className: 'col-xs-3 col-md-2' }),
 	            _react2.default.createElement(
 	              'div',
-	              { className: 'col-md-8' },
+	              { className: 'col-xs-12 col-md-8' },
 	              _react2.default.createElement(_VideoPlayer2.default, null),
 	              _react2.default.createElement(
 	                'div',
@@ -41102,7 +41102,7 @@
 	                )
 	              )
 	            ),
-	            _react2.default.createElement('div', { className: 'col-md-2' })
+	            _react2.default.createElement('div', { className: 'col-xs-3 col-md-2' })
 	          )
 	        )
 	      );
@@ -54009,21 +54009,21 @@
 	  _createClass(SocialWall, [{
 	    key: 'render',
 	    value: function render() {
-	      var classesWall = (0, _classnames2.default)(this.props.wall, this.props.background, 'container');;
+	      var classesWall = (0, _classnames2.default)(this.props.wall, this.props.background, 'container-fluid');;
 	      return _react2.default.createElement(
 	        'div',
 	        { className: classesWall },
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'container' },
+	          { className: 'container-fluid' },
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'row' },
-	            _react2.default.createElement('div', { className: 'col-md-2' }),
-	            _react2.default.createElement('div', { className: 'col-md-2' }),
+	            _react2.default.createElement('div', { className: 'col-xs-3 col-md-2' }),
+	            _react2.default.createElement('div', { className: 'col-xs-3 col-md-2' }),
 	            _react2.default.createElement(
 	              'div',
-	              { className: 'col-md-8' },
+	              { className: 'col-xs-12 col-md-8' },
 	              _react2.default.createElement(
 	                'div',
 	                { className: 'right whiteText' },
@@ -54154,21 +54154,21 @@
 	  _createClass(TinnrWall, [{
 	    key: 'render',
 	    value: function render() {
-	      var classesWall = (0, _classnames2.default)(this.props.wall, this.props.background, 'container');;
+	      var classesWall = (0, _classnames2.default)(this.props.wall, this.props.background, 'container-fluid');;
 	      return _react2.default.createElement(
 	        'div',
 	        { className: classesWall },
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'container' },
+	          { className: 'container-fluid' },
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'row' },
-	            _react2.default.createElement('div', { className: 'col-md-2' }),
-	            _react2.default.createElement('div', { className: 'col-md-2' }),
+	            _react2.default.createElement('div', { className: 'col-xs-3 col-md-2' }),
+	            _react2.default.createElement('div', { className: 'col-xs-3 col-md-2' }),
 	            _react2.default.createElement(
 	              'div',
-	              { className: 'col-md-8' },
+	              { className: 'col-xs-12 col-md-8' },
 	              _react2.default.createElement(
 	                'div',
 	                { className: 'right' },
@@ -54299,21 +54299,21 @@
 	  _createClass(McTestingWall, [{
 	    key: 'render',
 	    value: function render() {
-	      var classesWall = (0, _classnames2.default)(this.props.wall, this.props.background, 'container');;
+	      var classesWall = (0, _classnames2.default)(this.props.wall, this.props.background, 'container-fluid');;
 	      return _react2.default.createElement(
 	        'div',
 	        { className: classesWall },
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'container' },
+	          { className: 'container-fluid' },
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'row' },
-	            _react2.default.createElement('div', { className: 'col-md-2' }),
-	            _react2.default.createElement('div', { className: 'col-md-2' }),
+	            _react2.default.createElement('div', { className: 'col-xs-3 col-md-2' }),
+	            _react2.default.createElement('div', { className: 'col-xs-3 col-md-2' }),
 	            _react2.default.createElement(
 	              'div',
-	              { className: 'col-md-8' },
+	              { className: 'col-xs-12 col-md-8' },
 	              _react2.default.createElement(
 	                'div',
 	                { className: 'right' },

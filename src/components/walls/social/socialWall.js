@@ -7,14 +7,14 @@ class SocialWall extends Component {
     this.props = props;
   }
   render() {
-    const classesWall = CN(this.props.wall, this.props.background, 'container');;
+    const classesWall = CN(this.props.wall, this.props.background, 'container-fluid');;
     return (
       <div className={classesWall}>
-        <div className='container'>
+        <div className='container-fluid'>
           <div className='row'>
-            <div className='col-md-2' />
-            <div className='col-md-2' />
-            <div className='col-md-8'>
+            <div className='col-xs-3 col-md-2' />
+            <div className='col-xs-3 col-md-2' />
+            <div className='col-xs-12 col-md-8'>
               <div className='right whiteText'>
                 <h3>
                   <a href='https://www.github.com/HomeBrewCrewX/tinnr'>

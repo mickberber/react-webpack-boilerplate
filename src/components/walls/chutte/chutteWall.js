@@ -8,13 +8,13 @@ class ChutteWall extends Component {
     this.props = props;
   }
   render() {
-    const classesWall = CN(this.props.wall, this.props.background, 'container');
+    const classesWall = CN(this.props.wall, this.props.background, 'container-fluid');
     return (
       <div className={classesWall}>
-        <div className='container'>
+        <div className='container-fluid'>
           <div className='row'>
-            <div className='col-md-2' />
-            <div className='col-md-8'>
+            <div className='col-xs-3 col-md-2' />
+            <div className='col-xs-12 col-md-8'>
               <VideoPlayer />
               <div className='center'>
               <h3>Chutte.com</h3>
@@ -26,7 +26,7 @@ class ChutteWall extends Component {
                 <a href='https://github.com/beresford211'><h5>Tim Steele  <img src='./src/assets/GitHub-Mark-32px.png'></img></h5></a>
               </div>
             </div>
-            <div className='col-md-2' />
+            <div className='col-xs-3 col-md-2' />
           </div>
         </div>
       </div>

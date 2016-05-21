@@ -7,13 +7,13 @@ class GilsonWall extends Component {
     this.props = props;
   }
   render() {
-    const classesWall = CN(this.props.wall, this.props.background, 'container');;
+    const classesWall = CN(this.props.wall, this.props.background, 'container-fluid');;
     return (
       <div className={classesWall}>
-        <div className='container'>
+        <div className='container-fluid'>
           <div className='row'>
-            <div className='col-md-2' />
-            <div className='col-md-8'>
+            <div className='col-xs-3 col-md-2' />
+            <div className='col-xs-12 col-md-8'>
               <div className='center gilsonText'>
                 <a style={{color:'white'}} href='https://gilson.herokuapp.com/'><i className="fa fa-area-chart fa-5x"></i>Team Rubicon Mobilizer</a>
               </div>
@@ -28,7 +28,7 @@ class GilsonWall extends Component {
                 <a href='https://github.com/bgoodfliesh'><h5>Brandon Goodfliesh  <img src='./src/assets/github-32.png' /></h5></a>
               </div>
             </div>
-            <div className='col-md-2' />
+            <div className='col-xs-3 col-md-2' />
           </div>
         </div>
       </div>
