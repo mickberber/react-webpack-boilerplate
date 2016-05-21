@@ -140,9 +140,3 @@
   width: 80%;
   margin: auto;
 }
-
-@media only screen and (max-width: 900px) {
-    [class*="col-"] {
-        width: 100%;
-    }
-}
