@@ -7,7 +7,7 @@ class SocialWall extends Component {
     this.props = props;
   }
   render() {
-    const classesWall = CN(this.props.wall, this.props.background, 'container-fluid');;
+    const classesWall = CN(this.props.wall, this.props.background, 'container-fluid');
     return (
       <div className={classesWall}>
         <div className='container-fluid'>

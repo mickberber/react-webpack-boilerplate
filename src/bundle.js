@@ -54009,7 +54009,7 @@
 	  _createClass(SocialWall, [{
 	    key: 'render',
 	    value: function render() {
-	      var classesWall = (0, _classnames2.default)(this.props.wall, this.props.background, 'container-fluid');;
+	      var classesWall = (0, _classnames2.default)(this.props.wall, this.props.background, 'container-fluid');
 	      return _react2.default.createElement(
 	        'div',
 	        { className: classesWall },
