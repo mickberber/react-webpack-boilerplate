@@ -14,7 +14,7 @@ class SocialWall extends Component {
             <div className='col-xs-3 col-md-2' />
             <div className='col-xs-3 col-md-2' />
             <div className='col-xs-12 col-md-8'>
-              <div className='right whiteText'>
+              <div className='right whiteText dropTopLrg'>
                 <h3>
                   <a href='https://www.github.com/HomeBrewCrewX/tinnr'>
                     Socialflix <img src='./src/assets/github-32.png' />
