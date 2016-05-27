@@ -140,3 +140,14 @@
   width: 80%;
   margin: auto;
 }
+
+.navbar {
+    background-color: transparent;
+    background: transparent;
+    border-width: 0px;
+}
+
+.mbLogoSm {
+	height: 30px;
+	width: 40px;
+}

@@ -9,7 +9,7 @@ import McTestingWall from './mcTesting/mcTestingWall';
 class Walls extends Component {
   render() {
     return(
-      <div className='container-fluid'>
+      <div>
         <LogoWall background='logoBackground' wall='logoStructure' />
         <GilsonWall background='gilsonBackground' wall='gilsonStructure' />
         <McTestingWall background='mcTestingBackground' wall='mcTestingStructure' />
