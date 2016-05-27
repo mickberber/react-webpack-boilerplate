@@ -18,7 +18,7 @@
 /* Logo Wall Attributes */
 .logoStructure {
   position: static;
-	height: 620px;
+	height: 720px;
 	width: 100%;
 	z-index: 1;
 }
@@ -29,6 +29,12 @@
 	background-repeat: no-repeat;
 	background-position: center;
   background-size: cover;
+}
+
+.bottom {
+	position: absolute;
+	bottom: 75px;
+	width: 100%;
 }
 
 /* Gilson Wall Attributes */

@@ -11,14 +11,16 @@ class LogoWall extends Component {
     const classesWall = CN(this.props.wall, this.props.background, 'center');
     return (
       <div className={classesWall}>
-          <div className='row'>
+          <div className='row row-eq-height'>
             <div className='col-xs-3 col-md-2' />
-            <div className='col-xs-12 col-md-8 center'>
-              This site was built with:
-              <img style={{height: '100px', width: '70px'}}src='./../assets/wallAssets/reactjs.png' />
-              And deployed on:
-              <img style={{height: '100px', width: '120px'}}src='./../assets/wallAssets/heroku.png' />
-            </div>
+              <div className='col-xs-12 col-md-8 center' style={{height: '620px'}}>
+                <div className='bottom'>
+                  This site was built with:
+                  <img style={{height: '100px', width: '70px'}}src='./../assets/wallAssets/reactjs.png' />
+                  And deployed on:
+                  <img style={{height: '100px', width: '120px'}}src='./../assets/wallAssets/heroku.png' />
+                </div>
+              </div>
             <div className='col-xs-3 col-md-2' />
           </div>
       </div>

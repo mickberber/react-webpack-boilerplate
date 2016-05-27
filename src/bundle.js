@@ -21687,15 +21687,19 @@
 	        { className: classesWall },
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'row' },
+	          { className: 'row row-eq-height' },
 	          _react2.default.createElement('div', { className: 'col-xs-3 col-md-2' }),
 	          _react2.default.createElement(
 	            'div',
-	            { className: 'col-xs-12 col-md-8 center' },
-	            'This site was built with:',
-	            _react2.default.createElement('img', { style: { height: '100px', width: '70px' }, src: './../assets/wallAssets/reactjs.png' }),
-	            'And deployed on:',
-	            _react2.default.createElement('img', { style: { height: '100px', width: '120px' }, src: './../assets/wallAssets/heroku.png' })
+	            { className: 'col-xs-12 col-md-8 center', style: { height: '620px' } },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'bottom' },
+	              'This site was built with:',
+	              _react2.default.createElement('img', { style: { height: '100px', width: '70px' }, src: './../assets/wallAssets/reactjs.png' }),
+	              'And deployed on:',
+	              _react2.default.createElement('img', { style: { height: '100px', width: '120px' }, src: './../assets/wallAssets/heroku.png' })
+	            )
 	          ),
 	          _react2.default.createElement('div', { className: 'col-xs-3 col-md-2' })
 	        )
