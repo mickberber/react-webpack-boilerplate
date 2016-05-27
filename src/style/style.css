@@ -17,7 +17,7 @@
 
 /* Logo Wall Attributes */
 .logoStructure {
-  position: static;
+  position: relative;
 	height: 720px;
 	width: 100%;
 	z-index: 1;
@@ -28,7 +28,7 @@
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center;
-  background-size: cover;
+  background-size: contain;
 }
 
 .bottom {
@@ -40,7 +40,7 @@
 /* Gilson Wall Attributes */
 
 .gilsonStructure {
-  position: static;
+  position: relative;
 	height: 800px;
 	width: 100%;
 	z-index: 1;
@@ -51,7 +51,7 @@
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center;
-  background-size: cover;
+  background-size: contain;
 }
 
 .gilsonText {
@@ -64,7 +64,7 @@
 /* Chutte Wall Attributes */
 
 .chutteStructure {
-  position: static;
+  position: relative;
 	height: 800px;
 	width: 100%;
 	z-index: 1;
@@ -75,7 +75,7 @@
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center;
-  background-size: cover;
+  background-size: contain;
 }
 
 .chutteText {
@@ -86,7 +86,7 @@
 /* Social Flix Wall Attributes */
 
 .socialStructure {
-  position: static;
+  position: relative;
 	height: 800px;
 	width: 100%;
 	z-index: 1;
@@ -97,13 +97,13 @@
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center;
-  background-size: cover;
+  background-size: contain;
 }
 
 /* Tinnr++ Wall Attributes */
 
 .tinnrStructure {
-  position: static;
+  position: relative;
 	height: 800px;
 	width: 100%;
 	z-index: 1;
@@ -114,13 +114,13 @@
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center;
-  background-size: cover;
+  background-size: contain;
 }
 
 /* McTesting.js Wall Attributes */
 
 .mcTestingStructure {
-  position: static;
+  position: relative;
 	height: 800px;
 	width: 100%;
 	z-index: 1;
@@ -131,7 +131,7 @@
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center;
-  background-size: cover;
+  background-size: contain;
 }
 /*not currently used
 
