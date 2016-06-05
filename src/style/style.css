@@ -56,10 +56,10 @@
 
 .homeBackground {
 	background: url('./../src/assets/mblogo.png');
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-repeat: no-repeat;
 	background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 
 /* Logo Wall Attributes */
@@ -72,10 +72,10 @@
 
 .logoBackground {
 	background: url('./../src/assets/mblogo.png');
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-repeat: no-repeat;
 	background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 
 /* Gilson Wall Attributes */
@@ -89,10 +89,10 @@
 
 .gilsonBackground {
   background: url('./../src/assets/wallAssets/gilsonStage.png');
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-repeat: no-repeat;
 	background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 
 .gilsonText {
@@ -113,10 +113,10 @@
 
 .chutteBackground {
 	background: url('./../src/assets/wallAssets/chuttelogo.png');
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-repeat: no-repeat;
 	background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 
 .chutteText {
@@ -135,10 +135,10 @@
 
 .socialBackground {
   background: url('./../src/assets/wallAssets/socialflixss.png');
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-repeat: no-repeat;
 	background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 
 /* Tinnr++ Wall Attributes */
@@ -152,10 +152,10 @@
 
 .tinnrBackground {
 	background: url('./../src/assets/wallAssets/tinnrss.png');
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-repeat: no-repeat;
 	background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 
 /* McTesting.js Wall Attributes */
@@ -169,10 +169,10 @@
 
 .mcTestingBackground {
 	background: url('./../src/assets/npmmcTesting.png');
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-repeat: no-repeat;
 	background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 
 /* Twitter style */
