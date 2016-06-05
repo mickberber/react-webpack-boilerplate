@@ -16,8 +16,8 @@ class SocialWall extends Component {
             <div className='col-xs-12 col-md-8'>
               <div className='right whiteText dropTopLrg'>
                 <h3>
-                  <a href='https://www.github.com/HomeBrewCrewX/tinnr'>
-                    Socialflix <img src='./src/assets/github-32.png' />
+                  <a href='http://socialflix.herokuapp.com'>
+                    Socialflix <i className="fa fa-film" aria-hidden="true"></i>
                   </a>
                 </h3>
                 <h3>A synchronized video web application</h3>

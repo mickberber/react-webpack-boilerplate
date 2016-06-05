@@ -27683,9 +27683,13 @@
 	              'div',
 	              { className: 'center' },
 	              _react2.default.createElement(
-	                'h3',
-	                null,
-	                'Chutte.com'
+	                'a',
+	                { href: 'http://www.chutte.com' },
+	                _react2.default.createElement(
+	                  'h3',
+	                  null,
+	                  'Chutte.com'
+	                )
 	              ),
 	              _react2.default.createElement(
 	                'h3',
@@ -40666,9 +40670,9 @@
 	                null,
 	                _react2.default.createElement(
 	                  'a',
-	                  { href: 'https://www.github.com/HomeBrewCrewX/tinnr' },
+	                  { href: 'http://socialflix.herokuapp.com' },
 	                  'Socialflix ',
-	                  _react2.default.createElement('img', { src: './src/assets/github-32.png' })
+	                  _react2.default.createElement('i', { className: 'fa fa-film', 'aria-hidden': 'true' })
 	                )
 	              ),
 	              _react2.default.createElement(
@@ -40807,9 +40811,9 @@
 	                null,
 	                _react2.default.createElement(
 	                  'a',
-	                  { href: 'https://www.github.com/HomeBrewCrewX/tinnr' },
-	                  'Tinnr++ ',
-	                  _react2.default.createElement('img', { src: './src/assets/GitHub-Mark-32px.png' })
+	                  { href: 'http://www.tinnrplusplus.herokuapp.com' },
+	                  'Tinnr ',
+	                  _react2.default.createElement('i', { className: 'fa fa-plus-circle', 'aria-hidden': 'true' })
 	                )
 	              ),
 	              _react2.default.createElement(

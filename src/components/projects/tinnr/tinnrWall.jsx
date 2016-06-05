@@ -16,8 +16,8 @@ class TinnrWall extends Component {
             <div className='col-xs-12 col-md-8'>
               <div className='right' style={{marginTop: '50px'}}>
                 <h3>
-                  <a href='https://www.github.com/HomeBrewCrewX/tinnr'>
-                    Tinnr++ <img src='./src/assets/GitHub-Mark-32px.png'></img>
+                  <a href='http://www.tinnrplusplus.herokuapp.com'>
+                    Tinnr <i className="fa fa-plus-circle" aria-hidden="true"></i>
                   </a>
                 </h3>
                 <h3>A web application to help pick recipes</h3>

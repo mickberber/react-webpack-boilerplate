@@ -16,7 +16,7 @@ class ChutteWall extends Component {
             <div className='col-xs-12 col-md-8'>
               <VideoPlayer />
               <div className='center'>
-              <h3>Chutte.com</h3>
+              <a href='http://www.chutte.com'><h3>Chutte.com</h3></a>
               <h3>A reverse auction style marketplace.</h3>
               <img style={{height: '50px', width: '50px'}}src='./../assets/wallAssets/kgbjs.png'/><h4>KGBJS</h4>
                 <a href='https://github.com/mickberber'><h5>Myself  <img src='./src/assets/GitHub-Mark-32px.png'></img></h5></a>
