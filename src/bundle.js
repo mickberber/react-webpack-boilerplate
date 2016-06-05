@@ -27239,7 +27239,7 @@
 	                _react2.default.createElement(
 	                  _reactRouter.Link,
 	                  { to: 'about' },
-	                  _react2.default.createElement('i', { className: 'fa fa-meh-o', 'aria-hidden': 'true' }),
+	                  _react2.default.createElement('i', { className: 'fa fa-smile-o', 'aria-hidden': 'true' }),
 	                  ' about me'
 	                )
 	              ),
@@ -41193,7 +41193,7 @@
 	                _react2.default.createElement(
 	                  _reactRouter.Link,
 	                  { to: 'about' },
-	                  _react2.default.createElement('i', { className: 'fa fa-meh-o', 'aria-hidden': 'true' }),
+	                  _react2.default.createElement('i', { className: 'fa fa-smile-o', 'aria-hidden': 'true' }),
 	                  ' about me'
 	                )
 	              ),
