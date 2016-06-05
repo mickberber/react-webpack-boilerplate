@@ -9,8 +9,8 @@ export default class Footer extends Component {
             <div className="navbar-collapse collapse" id="footer">
               <ul className="nav navbar-nav">
                 <li><a href='/'><i className="fa fa-home" aria-hidden="true"></i> home</a></li>
-                <li><Link to='about'><i className="fa fa-smile-o" aria-hidden="true"></i> about me</Link></li>
                 <li><Link to="contact"><i className="fa fa-envelope-o" aria-hidden="true"></i> contact</Link></li>
+                <li><Link to='about'><i className="fa fa-smile-o" aria-hidden="true"></i> about me</Link></li>
                 <li><Link to='projects'><i className="fa fa-code-fork" aria-hidden="true"></i> projects</Link></li>
               </ul>
               <ul className="nav navbar-nav navbar-right">

@@ -27238,9 +27238,9 @@
 	                null,
 	                _react2.default.createElement(
 	                  _reactRouter.Link,
-	                  { to: 'about' },
-	                  _react2.default.createElement('i', { className: 'fa fa-smile-o', 'aria-hidden': 'true' }),
-	                  ' about me'
+	                  { to: 'contact' },
+	                  _react2.default.createElement('i', { className: 'fa fa-envelope-o', 'aria-hidden': 'true' }),
+	                  ' contact'
 	                )
 	              ),
 	              _react2.default.createElement(
@@ -27248,9 +27248,9 @@
 	                null,
 	                _react2.default.createElement(
 	                  _reactRouter.Link,
-	                  { to: 'contact' },
-	                  _react2.default.createElement('i', { className: 'fa fa-envelope-o', 'aria-hidden': 'true' }),
-	                  ' contact'
+	                  { to: 'about' },
+	                  _react2.default.createElement('i', { className: 'fa fa-smile-o', 'aria-hidden': 'true' }),
+	                  ' about me'
 	                )
 	              ),
 	              _react2.default.createElement(
@@ -41192,9 +41192,9 @@
 	                null,
 	                _react2.default.createElement(
 	                  _reactRouter.Link,
-	                  { to: 'about' },
-	                  _react2.default.createElement('i', { className: 'fa fa-smile-o', 'aria-hidden': 'true' }),
-	                  ' about me'
+	                  { to: 'contact' },
+	                  _react2.default.createElement('i', { className: 'fa fa-envelope-o', 'aria-hidden': 'true' }),
+	                  ' contact'
 	                )
 	              ),
 	              _react2.default.createElement(
@@ -41202,9 +41202,9 @@
 	                null,
 	                _react2.default.createElement(
 	                  _reactRouter.Link,
-	                  { to: 'contact' },
-	                  _react2.default.createElement('i', { className: 'fa fa-envelope-o', 'aria-hidden': 'true' }),
-	                  ' contact'
+	                  { to: 'about' },
+	                  _react2.default.createElement('i', { className: 'fa fa-smile-o', 'aria-hidden': 'true' }),
+	                  ' about me'
 	                )
 	              ),
 	              _react2.default.createElement(
