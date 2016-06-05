@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 //import NavBar from './../navBar';
-import Footer from './../footer';
+import Nav from './../nav';
 
 export default class Contact extends Component {
   render() {
@@ -19,7 +19,7 @@ export default class Contact extends Component {
               <div className='col-xs-4'></div>
             </div>
           </div>
-        <Footer />
+        <Nav textColor='black' />
       </div>
     );
   }
