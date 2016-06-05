@@ -26850,9 +26850,9 @@
 
 	var _navBar2 = _interopRequireDefault(_navBar);
 
-	var _walls = __webpack_require__(248);
+	var _homeWall = __webpack_require__(464);
 
-	var _walls2 = _interopRequireDefault(_walls);
+	var _homeWall2 = _interopRequireDefault(_homeWall);
 
 	var _twitters = __webpack_require__(462);
 
@@ -26865,12 +26865,6 @@
 	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-	//walls === website sections for projects && about.me
-
-
-	//not currently used
-	//import VideoPlayer from './videoPlayer';
-	//import Jumbo from './jumbo';
 
 	var App = function (_Component) {
 	  _inherits(App, _Component);
@@ -26888,7 +26882,7 @@
 	        'div',
 	        null,
 	        _react2.default.createElement(_navBar2.default, null),
-	        _react2.default.createElement(_walls2.default, null),
+	        _react2.default.createElement(_homeWall2.default, { background: 'logoBackground', wall: 'logoStructure' }),
 	        _react2.default.createElement(_twitters2.default, null)
 	      );
 	    }
@@ -26950,8 +26944,8 @@
 	              'li',
 	              null,
 	              _react2.default.createElement(
-	                _reactRouter.Link,
-	                { to: '/' },
+	                'a',
+	                { href: '/' },
 	                _react2.default.createElement('img', { className: 'mbLogoSm', src: './assets/mblogosm.png' })
 	              )
 	            )
@@ -26987,6 +26981,16 @@
 	                { href: 'https://medium.com/@steedhelix', style: { color: 'black' } },
 	                _react2.default.createElement('i', { style: { color: 'black' }, className: 'fa fa-medium', 'aria-hidden': 'true' }),
 	                ' Blog'
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'li',
+	              null,
+	              _react2.default.createElement(
+	                'a',
+	                { href: 'https://twitter.com/steedhelix', style: { color: 'black' } },
+	                _react2.default.createElement('i', { style: { color: 'black' }, className: 'fa fa-twitter', 'aria-hidden': 'true' }),
+	                ' Twitter'
 	              )
 	            )
 	          )
@@ -27134,15 +27138,6 @@
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'col-xs-12 col-md-8 center', style: { height: '620px' } },
-	            _react2.default.createElement(
-	              _reactRouter.Link,
-	              { to: 'projects' },
-	              _react2.default.createElement(
-	                'button',
-	                null,
-	                'to projects'
-	              )
-	            ),
 	            _react2.default.createElement(
 	              'div',
 	              { className: 'bottom' },
@@ -40761,7 +40756,7 @@
 	      return _react2.default.createElement(
 	        'div',
 	        { className: 'centerTwit' },
-	        _react2.default.createElement('a', { href: 'https://twitter.com/steedhelix', className: 'twitter-timeline', 'data-show-count': 'false', 'data-show-screen-name': 'false' })
+	        _react2.default.createElement('a', { href: 'https://twitter.com/steedhelix', className: 'twitter-timeline', 'data-show-count': 'false', 'data-show-screen-name': 'true' })
 	      );
 	    }
 	  }]);
@@ -40825,8 +40820,7 @@
 	        'div',
 	        null,
 	        _react2.default.createElement(_navBar2.default, null),
-	        _react2.default.createElement(_walls2.default, null),
-	        _react2.default.createElement(_twitters2.default, null)
+	        _react2.default.createElement(_walls2.default, null)
 	      );
 	    }
 	  }]);
@@ -40835,6 +40829,121 @@
 	}(_react.Component);
 
 	exports.default = Projects;
+
+/***/ },
+/* 464 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _reactRouter = __webpack_require__(186);
+
+	var _classnames = __webpack_require__(250);
+
+	var _classnames2 = _interopRequireDefault(_classnames);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var HomeWall = function (_Component) {
+	  _inherits(HomeWall, _Component);
+
+	  function HomeWall(props) {
+	    _classCallCheck(this, HomeWall);
+
+	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(HomeWall).call(this, props));
+
+	    _this.props = props;
+	    return _this;
+	  }
+
+	  _createClass(HomeWall, [{
+	    key: 'render',
+	    value: function render() {
+	      var classesWall = (0, _classnames2.default)(this.props.wall, this.props.background, 'center');
+	      return _react2.default.createElement(
+	        'div',
+	        { className: classesWall },
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'row row-eq-height' },
+	          _react2.default.createElement('div', { className: 'col-xs-3 col-md-2' }),
+	          _react2.default.createElement('div', { className: 'col-xs-12 col-md-8 center', style: { height: '620px' } }),
+	          _react2.default.createElement('div', { className: 'col-xs-3 col-md-2' })
+	        ),
+	        _react2.default.createElement(
+	          'footer',
+	          null,
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'navbar navbar-inverse navbar-fixed-bottom' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'container' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'navbar-collapse collapse', id: 'footer' },
+	                _react2.default.createElement(
+	                  'ul',
+	                  { className: 'nav navbar-nav' },
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      _reactRouter.Link,
+	                      { to: 'about' },
+	                      _react2.default.createElement('i', { className: 'fa fa-meh-o', 'aria-hidden': 'true' }),
+	                      ' about me'
+	                    )
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      _reactRouter.Link,
+	                      { to: 'contact' },
+	                      _react2.default.createElement('i', { className: 'fa fa-envelope-o', 'aria-hidden': 'true' }),
+	                      ' contact'
+	                    )
+	                  ),
+	                  _react2.default.createElement(
+	                    'li',
+	                    null,
+	                    _react2.default.createElement(
+	                      _reactRouter.Link,
+	                      { to: 'projects' },
+	                      _react2.default.createElement('i', { className: 'fa fa-code-fork', 'aria-hidden': 'true' }),
+	                      ' projects'
+	                    )
+	                  )
+	                )
+	              )
+	            )
+	          )
+	        )
+	      );
+	    }
+	  }]);
+
+	  return HomeWall;
+	}(_react.Component);
+
+	exports.default = HomeWall;
 
 /***/ }
 /******/ ]);

@@ -12,7 +12,6 @@ export default class Projects extends Component {
       <div>
         <NavBar />
         <Walls />
-        <Twitters />
       </div>
     );
   }

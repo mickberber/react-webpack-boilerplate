@@ -14,7 +14,6 @@ class LogoWall extends Component {
           <div className='row row-eq-height'>
             <div className='col-xs-3 col-md-2' />
               <div className='col-xs-12 col-md-8 center' style={{height: '620px'}}>
-                <Link to='projects'><button>to projects</button></Link>
                 <div className='bottom'>
                   This site was built with:
                   <img style={{height: '100px', width: '70px'}}src='./../assets/wallAssets/reactjs.png' />
