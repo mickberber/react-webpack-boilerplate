@@ -1,3 +1,4 @@
+/* styles for use everywhere */
 * {
 	margin: 0;
 	padding: 0;
@@ -15,6 +16,52 @@
   color: white;
 }
 
+.bottom {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+
+/**TEMPORARY STYLE **/
+.tempDropTop {
+	margin-top: 300px;
+}
+
+
+/* Nav bar styles*/
+.navbar {
+    background-color: transparent;
+    background: transparent;
+    border-width: 0px;
+}
+
+.mbLogoSm {
+	height: 30px;
+	width: 40px;
+}
+
+/* create space for text from top of walls */
+
+.dropTopLrg {
+	margin-top: 50px;
+}
+
+/* /app/homeWall styles */
+.homeStructure {
+  position: relative;
+	height: 720px;
+	width: 100%;
+	z-index: 1;
+}
+
+.homeBackground {
+	background: url('./../src/assets/mblogo.png');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+  background-size: contain;
+}
+
 /* Logo Wall Attributes */
 .logoStructure {
   position: relative;
@@ -29,12 +76,6 @@
 	background-repeat: no-repeat;
 	background-position: center;
   background-size: contain;
-}
-
-.bottom {
-	position: absolute;
-	bottom: 75px;
-	width: 100%;
 }
 
 /* Gilson Wall Attributes */
@@ -133,35 +174,9 @@
 	background-position: center;
   background-size: contain;
 }
-/*not currently used
 
-.iframeCenter {
-    width: 100px;
-    height: 50px;
-    margin: 0 auto;
-    background-color: #777;
-}
-*/
+/* Twitter style */
 .centerTwit {
   width: 80%;
   margin: auto;
-}
-
-.navbar {
-    background-color: transparent;
-    background: transparent;
-    border-width: 0px;
-}
-
-.mbLogoSm {
-	height: 30px;
-	width: 40px;
-}
-
-.dropTopSm {
-	margin-top: 25px;
-}
-
-.dropTopLrg {
-	margin-top: 50px;
 }

@@ -1,8 +1,8 @@
-import React from 'react';
-import { Component } from 'react';
+import React, { Component } from 'react';
+import { Link } from 'react-router';
 import CN from 'classnames';
 
-class LogoWall extends Component {
+class HomeWall extends Component {
   constructor(props) {
     super(props);
     this.props = props;
@@ -14,12 +14,6 @@ class LogoWall extends Component {
           <div className='row row-eq-height'>
             <div className='col-xs-3 col-md-2' />
               <div className='col-xs-12 col-md-8 center' style={{height: '620px'}}>
-                <div className='bottom'>
-                  This site was built with:
-                  <img style={{height: '100px', width: '70px'}}src='./../assets/wallAssets/reactjs.png' />
-                  And deployed on:
-                  <img style={{height: '100px', width: '120px'}}src='./../assets/wallAssets/heroku.png' />
-                </div>
               </div>
             <div className='col-xs-3 col-md-2' />
           </div>
@@ -28,4 +22,4 @@ class LogoWall extends Component {
   }
 }
 
-export default LogoWall;
+export default HomeWall;
