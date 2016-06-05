@@ -27550,7 +27550,7 @@
 	              _react2.default.createElement(
 	                'a',
 	                { href: 'https://www.docusign.com/blog/docusign-and-team-rubicon-join-forces-to-streamline-disaster-relief-efforts-in-hack-for-good/' },
-	                _react2.default.createElement('img', { className: 'center-block', src: 'https://www.docusign.com/blog/wp-content/uploads/2016/03/Screen-Shot-2016-03-11-at-11.11.05-AM.png' })
+	                _react2.default.createElement('img', { className: 'center-block', style: { height: '275px' }, src: 'https://www.docusign.com/blog/wp-content/uploads/2016/03/Screen-Shot-2016-03-11-at-11.11.05-AM.png' })
 	              ),
 	              _react2.default.createElement(
 	                'div',
@@ -41107,7 +41107,11 @@
 	              _react2.default.createElement(
 	                'div',
 	                { className: 'center tempDropTop' },
-	                'mickberber@icloud.com'
+	                _react2.default.createElement(
+	                  'a',
+	                  { href: 'mailto:mickberber@icloud.com' },
+	                  'mickberber@icloud.com'
+	                )
 	              )
 	            ),
 	            _react2.default.createElement('div', { className: 'col-xs-4' })

@@ -18,7 +18,7 @@ class GilsonWall extends Component {
                   <a style={{color:'white'}} href='https://gilson.herokuapp.com/'><i className="fa fa-area-chart fa-5x"></i>Team Rubicon Mobilizer</a>
                 </div>
                 <a href='https://www.docusign.com/blog/docusign-and-team-rubicon-join-forces-to-streamline-disaster-relief-efforts-in-hack-for-good/'>
-                  <img className='center-block' src='https://www.docusign.com/blog/wp-content/uploads/2016/03/Screen-Shot-2016-03-11-at-11.11.05-AM.png'></img>
+                  <img className='center-block' style={{height: '275px'}} src='https://www.docusign.com/blog/wp-content/uploads/2016/03/Screen-Shot-2016-03-11-at-11.11.05-AM.png'></img>
                 </a>
                 <div className='center gilsonText'>Grand Prize winning Team Gilsons!
                   <a href='https://github.com/mickberber'><h5>Myself  <img src='./src/assets/github-32.png' /></h5></a>

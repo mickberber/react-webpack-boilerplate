@@ -9,7 +9,13 @@ export default class Contact extends Component {
           <div className='container-fluid'>
             <div className='row'>
               <div className='col-xs-4'></div>
-              <div className='col-xs-4'><div className='center tempDropTop'>mickberber@icloud.com</div></div>
+              <div className='col-xs-4'>
+                <div className='center tempDropTop'>
+                  <a href="mailto:mickberber@icloud.com">
+                  mickberber@icloud.com
+                  </a>
+                </div>
+              </div>
               <div className='col-xs-4'></div>
             </div>
           </div>
