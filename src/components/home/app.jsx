@@ -1,16 +1,17 @@
 import React from 'react';
 import { Component } from 'react';
-import NavBar from './navBar';
+import NavBar from './../navBar';
 import HomeWall from './homeWall';
 import Twitters from './twitters';
+import Footer from './../footer';
 
 export default class App extends Component {
   render() {
     return (
       <div>
-        <NavBar />
-        <HomeWall background='logoBackground' wall='logoStructure' />
+        <HomeWall background='homeBackground' wall='homeStructure' />
         <Twitters />
+        <Footer />
       </div>
     );
   }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import VideoPlayer from './../../VideoPlayer';
+import VideoPlayer from './videoPlayer';
 import CN from 'classnames';
 
 class ChutteWall extends Component {
