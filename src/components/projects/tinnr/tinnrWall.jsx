@@ -14,7 +14,7 @@ class TinnrWall extends Component {
             <div className='col-xs-3 col-md-2' />
             <div className='col-xs-3 col-md-2' />
             <div className='col-xs-12 col-md-8'>
-              <div className='right' style={{marginTop: '50px'}}>
+              <div className='right' style={{marginTop: '65px', color: 'grey'}}>
                 <h3>
                   <a href='http://www.tinnrplusplus.herokuapp.com'>
                     Tinnr <i className="fa fa-plus-circle" aria-hidden="true"></i>
