@@ -46,6 +46,9 @@
 	margin-top: 50px;
 }
 
+.dropTopSm {
+	margin-top: 25px;
+}
 /* /app/homeWall styles */
 .homeStructure {
   position: relative;

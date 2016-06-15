@@ -14,14 +14,12 @@ class SocialWall extends Component {
             <div className='col-xs-3 col-md-2' />
             <div className='col-xs-3 col-md-2' />
             <div className='col-xs-12 col-md-8'>
-              <div className='right whiteText dropTopLrg'>
+                <div className='right dropTopLrg' style={{color: 'white'}}>
                 <h3>
                   <a href='http://socialflix.herokuapp.com'>
                     Socialflix <i className="fa fa-film" aria-hidden="true"></i>
                   </a>
                 </h3>
-                <h3>A synchronized video web application</h3>
-                <h4>Making group distance video binging possible</h4>
                 <h4>Via <img style={{height:'50px', width:'100px'}} src='./src/assets//wallAssets/socketio.png'></img></h4>
                 <div className='right'>MiddleOutHomeBrewCrew
                   <a href='https://github.com/mickberber'><h5>Myself  <img src='./src/assets/github-32.png' /></h5></a>
