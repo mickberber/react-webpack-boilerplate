@@ -40593,7 +40593,7 @@
 	            { className: 'col-xs-12 col-md-8' },
 	            _react2.default.createElement(
 	              'div',
-	              { className: 'right whiteText dropTopLrg' },
+	              { className: 'right dropTopLrg', style: { color: 'white' } },
 	              _react2.default.createElement(
 	                'h3',
 	                null,
@@ -40603,16 +40603,6 @@
 	                  'Socialflix ',
 	                  _react2.default.createElement('i', { className: 'fa fa-film', 'aria-hidden': 'true' })
 	                )
-	              ),
-	              _react2.default.createElement(
-	                'h3',
-	                null,
-	                'A synchronized video web application'
-	              ),
-	              _react2.default.createElement(
-	                'h4',
-	                null,
-	                'Making group distance video binging possible'
 	              ),
 	              _react2.default.createElement(
 	                'h4',
@@ -40734,7 +40724,7 @@
 	            { className: 'col-xs-12 col-md-8' },
 	            _react2.default.createElement(
 	              'div',
-	              { className: 'right', style: { marginTop: '50px' } },
+	              { className: 'right', style: { marginTop: '65px', color: 'grey' } },
 	              _react2.default.createElement(
 	                'h3',
 	                null,
