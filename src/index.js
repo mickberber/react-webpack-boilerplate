@@ -6,7 +6,6 @@ import { Router, Route, hashHistory } from 'react-router';
 
 import reducers from './reducers';
 import App from './components/home/app';
-import Projects from './components/projects/projects';
 import About from './components/about/about';
 import Contact from './components/contact/contact';
 
@@ -16,7 +15,6 @@ ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
     <Router history={hashHistory}>
       <Route path='/' component={App}/>
-      <Route path='/projects' component={Projects}/>
       <Route path='/about' component={About}/>
       <Route path='/contact' component={Contact}/>
     </Router>

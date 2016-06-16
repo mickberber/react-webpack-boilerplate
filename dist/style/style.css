@@ -55,7 +55,7 @@
 }
 
 .homeBackground {
-	background: url('./../src/assets/mblogo.png');
+	background: url('./../src/assets/muscle1.jpg');
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -71,109 +71,13 @@
 }
 
 .logoBackground {
-	background: url('./../src/assets/mblogo.png');
+	background: url('./../src/assets/muscle1.jpg');
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center;
   background-size: contain;
 }
 
-/* Gilson Wall Attributes */
-
-.gilsonStructure {
-  position: relative;
-	height: 800px;
-	width: 100%;
-	z-index: 1;
-}
-
-.gilsonBackground {
-  background: url('./../src/assets/wallAssets/gilsonStage.png');
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-position: center;
-  background-size: contain;
-}
-
-.gilsonText {
-  color: white;
-  font-size: 30px;
-}
-
-
-
-/* Chutte Wall Attributes */
-
-.chutteStructure {
-  position: relative;
-	height: 800px;
-	width: 100%;
-	z-index: 1;
-}
-
-.chutteBackground {
-	background: url('./../src/assets/wallAssets/chuttelogo.png');
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-position: center;
-  background-size: contain;
-}
-
-.chutteText {
-  color: black;
-  font-size: 30px;
-}
-
-/* Social Flix Wall Attributes */
-
-.socialStructure {
-  position: relative;
-	height: 800px;
-	width: 100%;
-	z-index: 1;
-}
-
-.socialBackground {
-  background: url('./../src/assets/wallAssets/socialflixss.png');
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-position: center;
-  background-size: contain;
-}
-
-/* Tinnr++ Wall Attributes */
-
-.tinnrStructure {
-  position: relative;
-	height: 800px;
-	width: 100%;
-	z-index: 1;
-}
-
-.tinnrBackground {
-	background: url('./../src/assets/wallAssets/tinnrss.png');
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-position: center;
-  background-size: contain;
-}
-
-/* McTesting.js Wall Attributes */
-
-.mcTestingStructure {
-  position: relative;
-	height: 800px;
-	width: 100%;
-	z-index: 1;
-}
-
-.mcTestingBackground {
-	background: url('./../src/assets/npmmcTesting.png');
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-position: center;
-  background-size: contain;
-}
 
 /* Twitter style */
 .centerTwit {

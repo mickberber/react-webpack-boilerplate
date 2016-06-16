@@ -11,9 +11,7 @@ export default class Contact extends Component {
               <div className='col-xs-4'></div>
               <div className='col-xs-4'>
                 <div className='center tempDropTop'>
-                  <a href="mailto:mickberber@icloud.com">
-                  mickberber@icloud.com
-                  </a>
+                jheb@jheb.com
                 </div>
               </div>
               <div className='col-xs-4'></div>

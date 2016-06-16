@@ -8,8 +8,7 @@ export default class About extends Component {
     return (
       <div>
         <Nav textColor='black' />
-          <img src='./../../assets/IMG_0925.JPG'/>
-          Zlatan, the dog(my dog).
+          shit goes in here.
       </div>
     );
   }
