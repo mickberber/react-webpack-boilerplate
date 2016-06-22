@@ -1,7 +1,6 @@
 import React from 'react';
 import { Component } from 'react';
 import HomeWall from './homeWall';
-import Twitters from './twitters';
 import Nav from './../nav';
 
 export default class App extends Component {
@@ -10,7 +9,6 @@ export default class App extends Component {
       <div>
         <Nav textColor='black' />
         <HomeWall background='homeBackground' wall='homeStructure' />
-        <Twitters />
       </div>
     );
   }
