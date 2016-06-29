@@ -14,3 +14,16 @@ To get it running:
 `webpack --watch --progress --colors`
 
 `node server.js`
+
+RESOURCES:
+react
+https://facebook.github.io/react/
+
+webpack
+https://webpack.github.io/
+
+redux
+http://redux.js.org/docs/introduction/
+
+react-router
+https://github.com/reactjs/react-router
